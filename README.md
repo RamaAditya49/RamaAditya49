@@ -21,7 +21,9 @@ With **10+ years** crafting software and digital strategies, I transform complex
 ## Table of Contents
 - [About Me](#about-me)
 - [Tech Stack](#tech-stack)
-- [Featured Projects](#featured-projects)
+- [Marketing & Business Strategy](#marketing--business-strategy)
+- [Portfolio Highlights](#portfolio-highlights)
+- [Blog](#blog)
 - [GitHub Stats](#github-stats)
 - [Currently Learning](#currently-learning)
 - [Let's Connect](#lets-connect)
@@ -31,6 +33,7 @@ With **10+ years** crafting software and digital strategies, I transform complex
 ## About Me
 I engineer solutions that empower businesses, captivate users and drive real-world success.
 My core strengths include visionary architecture, user‑centric design and growth‑driven marketing.
+I also specialize in business strategy and digital marketing, running high-performing FB Ads and Google Ads with precise visitor tracking from first click to closing.
 
 ---
 
@@ -71,11 +74,18 @@ My core strengths include visionary architecture, user‑centric design and grow
   <img src="https://img.shields.io/badge/Agile-0098AE?style=for-the-badge&logo=trello&logoColor=white" alt="Agile"/>
 </p>
 
+## Marketing & Business Strategy
+- **Data-Driven Ads:** Expertly manage FB Ads and Google Ads for high-conversion campaigns.
+- **Precise Tracking:** Capture every visitor touchpoint through to lead and closing.
+- **Integrated Systems:** Build seamless funnels connecting websites, CRM and analytics.
+
 ---
 
 ## Portfolio Highlights
 
 Explore a few of my full‑stack solutions below, and see the complete portfolio on [ramadigital.id](https://ramadigital.id/jasa-pembuatan-sistem.html).
+
+
 
 <div align="center">
   <img src="https://placehold.co/600x400/fc6c44/FFFFFF?text=ERP+Automation" alt="ERP Automation" width="45%"/>
@@ -85,6 +95,11 @@ Explore a few of my full‑stack solutions below, and see the complete portfolio
 </div>
 
 Check my [repositories](https://github.com/RamaAditya49?tab=repositories) for more!
+
+## Blog
+I regularly share insights on development, marketing and design at
+[ramadigital.id/blog](https://ramadigital.id/blog/). Check it out for tips,
+case studies and behind-the-scenes musings.
 
 ---
 
