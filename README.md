@@ -85,6 +85,8 @@ I also specialize in business strategy and digital marketing, running high-perfo
 
 Explore a few of my full‑stack solutions below, and see the complete portfolio on [ramadigital.id](https://ramadigital.id/jasa-pembuatan-sistem.html).
 
+
+
 <div align="center">
   <img src="https://placehold.co/600x400/fc6c44/FFFFFF?text=ERP+Automation" alt="ERP Automation" width="45%"/>
   <img src="https://placehold.co/600x400/3272a6/FFFFFF?text=E-Commerce+Suite" alt="E-Commerce Suite" width="45%"/>
@@ -93,8 +95,6 @@ Explore a few of my full‑stack solutions below, and see the complete portfolio
 </div>
 
 Check my [repositories](https://github.com/RamaAditya49?tab=repositories) for more!
-
----
 
 ## Blog
 I regularly share insights on development, marketing and design at
