@@ -21,7 +21,8 @@ With **10+ years** crafting software and digital strategies, I transform complex
 ## Table of Contents
 - [About Me](#about-me)
 - [Tech Stack](#tech-stack)
-- [Featured Projects](#featured-projects)
+- [Portfolio Highlights](#portfolio-highlights)
+- [Blog](#blog)
 - [GitHub Stats](#github-stats)
 - [Currently Learning](#currently-learning)
 - [Let's Connect](#lets-connect)
@@ -85,6 +86,13 @@ Explore a few of my full‑stack solutions below, and see the complete portfolio
 </div>
 
 Check my [repositories](https://github.com/RamaAditya49?tab=repositories) for more!
+
+---
+
+## Blog
+I regularly share insights on development, marketing and design at
+[ramadigital.id/blog](https://ramadigital.id/blog/). Check it out for tips,
+case studies and behind-the-scenes musings.
 
 ---
 
