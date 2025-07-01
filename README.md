@@ -127,21 +127,21 @@ const ramaAditya = {
   <table>
     <tr>
       <td align="center" width="33%">
-        <img src="https://img.icons8.com/color/64/000000/consultation.png"/>
+        <h3>💬</h3>
         <h4>1️⃣ Konsultasi Diagnostik</h4>
         <p><strong>GRATIS 30-45 menit</strong></p>
         <p>Diagnosis masalah, identifikasi peluang, dan rencana aksi awal tanpa biaya</p>
         <img src="https://img.shields.io/badge/Status-Always%20Free-4CAF50?style=flat-square"/>
       </td>
       <td align="center" width="33%">
-        <img src="https://img.icons8.com/color/64/000000/blueprint.png"/>
+        <h3>📋</h3>
         <h4>2️⃣ Perancangan Strategi</h4>
         <p><strong>Detailed Blueprint</strong></p>
         <p>Arsitektur strategi detail, teknologi, dan metrik kesuksesan sebelum eksekusi</p>
         <img src="https://img.shields.io/badge/Approach-Strategy%20First-blue?style=flat-square"/>
       </td>
       <td align="center" width="33%">
-        <img src="https://img.icons8.com/color/64/000000/partnership.png"/>
+        <h3>🤝</h3>
         <h4>3️⃣ Partnership & Growth</h4>
         <p><strong>Long-term Collaboration</strong></p>
         <p>Eksekusi, optimasi berkelanjutan, dan tumbuh bersama sebagai partner</p>
@@ -473,20 +473,20 @@ Baru di tahun 2024 ini saya mulai aktif open-source dan sharing knowledge secara
   <table>
     <tr>
       <td align="center" width="33%">
-        <img src="https://img.icons8.com/color/64/000000/artificial-intelligence.png"/>
-        <h4>🤖 AI & Automation</h4>
+        <h3>🤖</h3>
+        <h4>AI & Automation</h4>
         <p>Menggunakan AI untuk kebaikan umat</p>
         <img src="https://img.shields.io/badge/Progress-60%25-4CAF50?style=flat-square"/>
       </td>
       <td align="center" width="33%">
-        <img src="https://img.icons8.com/color/64/000000/cloud.png"/>
-        <h4>☁️ Cloud Architecture</h4>
+        <h3>☁️</h3>
+        <h4>Cloud Architecture</h4>
         <p>Serverless & scalable systems</p>
         <img src="https://img.shields.io/badge/Progress-75%25-4CAF50?style=flat-square"/>
       </td>
       <td align="center" width="33%">
-        <img src="https://img.icons8.com/color/64/000000/blockchain.png"/>
-        <h4>⛓️ Blockchain & Web3</h4>
+        <h3>⛓️</h3>
+        <h4>Blockchain & Web3</h4>
         <p>Technology for financial inclusion</p>
         <img src="https://img.shields.io/badge/Progress-40%25-4CAF50?style=flat-square"/>
       </td>
@@ -546,23 +546,23 @@ Dalam marketing digital, tidak ada yang bisa menjamin hasil pasti. Namun, yang s
   <table>
     <tr>
       <td align="center" width="25%">
-        <img src="https://img.icons8.com/color/64/000000/web-design.png"/>
-        <h4>🌐 Web Development</h4>
+        <h3>🌐</h3>
+        <h4>Web Development</h4>
         <p>Full-stack solutions dengan prinsip halal</p>
       </td>
       <td align="center" width="25%">
-        <img src="https://img.icons8.com/color/64/000000/smartphone.png"/>
-        <h4>📱 Mobile Apps</h4>
+        <h3>📱</h3>
+        <h4>Mobile Apps</h4>
         <p>Cross-platform apps yang user-friendly</p>
       </td>
       <td align="center" width="25%">
-        <img src="https://img.icons8.com/color/64/000000/system-task.png"/>
-        <h4>⚙️ Business Systems</h4>
+        <h3>⚙️</h3>
+        <h4>Business Systems</h4>
         <p>ERP, CRM, dan automation systems</p>
       </td>
       <td align="center" width="25%">
-        <img src="https://img.icons8.com/color/64/000000/digital-marketing.png"/>
-        <h4>📈 Digital Marketing</h4>
+        <h3>📈</h3>
+        <h4>Digital Marketing</h4>
         <p>Marketing strategy yang ethical & effective</p>
       </td>
     </tr>
