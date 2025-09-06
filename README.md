@@ -438,6 +438,16 @@ Salah satu insight terpenting yang saya pelajari dari Rasulullah SAW dalam berbi
   </table>
 </div>
 
+### 🌐 Birojodoh Rumaysho
+
+**Fullstack Laravel Development**
+
+**Status**: In Development
+
+**Description**: Saya sedang mengembangkan sistem Birojodoh Rumaysho sebagai fullstack developer menggunakan Laravel.
+
+**Live URL**: https://birojodoh.rumaysho.com
+
 **Tech Stack Behind AI Projects:**
 ```javascript
 const aiTechStack = {
