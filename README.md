@@ -388,15 +388,54 @@ Saya rutin menulis tentang kombinasi teknologi modern dengan nilai-nilai Islam:
 
 ---
 
-## 📊 GitHub Stats
+## 📊 GitHub Stats & Contributions
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=RamaAditya49&show_icons=true&theme=default&bg_color=ffffff&title_color=4CAF50&icon_color=4CAF50&text_color=333333&border_color=4CAF50&count_private=true&include_all_commits=true"/>
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RamaAditya49&layout=compact&theme=default&bg_color=ffffff&title_color=4CAF50&text_color=333333&border_color=4CAF50&langs_count=8"/>
+
+### 🏆 GitHub Trophies
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=RamaAditya49&theme=flat&no-frame=false&no-bg=false&margin-w=4&column=7)](https://github.com/ryo-ma/github-profile-trophy)
+
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=RamaAditya49&theme=default&background=ffffff&stroke=4CAF50&ring=4CAF50&fire=FF6B6B&currStreakLabel=4CAF50&border=4CAF50" />
+  
+### 📈 GitHub Statistics
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=RamaAditya49&show_icons=true&theme=default&bg_color=ffffff&title_color=4CAF50&icon_color=4CAF50&text_color=333333&border_color=4CAF50&count_private=true&include_all_commits=true&hide_rank=false&custom_title=📊%20GitHub%20Stats"/>
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RamaAditya49&layout=compact&theme=default&bg_color=ffffff&title_color=4CAF50&text_color=333333&border_color=4CAF50&langs_count=8&hide_border=false&custom_title=💻%20Most%20Used%20Languages"/>
+
+</div>
+
+<div align="center">
+
+### 🔥 Contribution Streak
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=RamaAditya49&theme=default&background=ffffff&stroke=4CAF50&ring=4CAF50&fire=FF6B6B&currStreakLabel=4CAF50&border=4CAF50&sideLabels=333333&currStreakNum=4CAF50&sideNums=4CAF50&dates=666666" alt="GitHub Streak"/>
+
+</div>
+
+<div align="center">
+
+### 📊 Weekly Development Breakdown
+
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
+
+</div>
+
+<div align="center">
+  
+### 💻 Contribution Graph
+
+![Rama's GitHub stats](https://github-readme-stats.vercel.app/api?username=RamaAditya49&show_icons=true&theme=radical)
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RamaAditya49/RamaAditya49/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RamaAditya49/RamaAditya49/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/RamaAditya49/RamaAditya49/output/github-contribution-grid-snake.svg">
+</picture>
+
 </div>
 
 ---
