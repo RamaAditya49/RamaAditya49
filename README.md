@@ -123,6 +123,25 @@ Bulk-deletes Cloudflare Pages & Workers deployments. Fixes *"too many deployment
 
 ---
 
+## SEO Results · Hasil SEO
+
+Saya menjual jasa attribution, jadi wajar kalau situs saya sendiri diukur dengan cara yang sama. `ramadigital.id` di Google Search Console, dua jendela 28 hari berjarak satu tahun:
+
+| | 1–28 Agu 2025 | 1–28 Jul 2026 | |
+|---|---:|---:|:---|
+| Klik | 11 | **657** | 60× |
+| Impresi | 433 | **49.344** | 114× |
+| Posisi rata-rata | 31,5 | **9,8** | |
+| Query terlapor | 61 | **2.057** | 34× |
+
+Total 12 bulan terakhir: **3.467 klik** dari **169.435 impresi**, posisi rata-rata **9,4**.
+
+Saat ini **1.355 query ada di halaman 1** dan **165 di posisi 1–3** — termasuk [`jasa install openclaw`](https://ramadigital.id/services/jasa-install-openclaw) di **posisi 1,2**. Penyumbang trafik organik terbesar adalah panduan instalasi agent: [Windows](https://ramadigital.id/blog/cara-install-hermes-agent-di-windows), [Linux](https://ramadigital.id/blog/cara-install-hermes-agent-di-linux), dan [macOS](https://ramadigital.id/blog/cara-install-hermes-agent-di-macos).
+
+<sub>Ditarik langsung dari Search Console API pada 31 Juli 2026 (`sc-domain:ramadigital.id`, pencarian web). Total situs memakai dimensi <em>date</em>; hitungan query memakai dimensi <em>query</em> sehingga tidak mencakup long-tail yang dianonimkan Google.</sub>
+
+---
+
 ## Layanan
 
 Saya membantu business owner yang iklannya boncos — budget habis tapi closing minim. Dari pengalaman, sebagian besar masalahnya bukan di creative atau targeting, tapi di **tracking yang berantakan**. Ketika tracking rusak, algoritma Meta & Google tidak bisa belajar, dan budget terbuang ke audience yang salah. Pendekatan saya: perbaiki tracking dulu, baru optimasi strategi.
