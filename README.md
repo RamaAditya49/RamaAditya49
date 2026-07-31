@@ -100,12 +100,14 @@ Bulk-deletes Cloudflare Pages & Workers deployments. Fixes *"too many deployment
 
 **Rama Digital** — internal platform: ads manager, SEO research gateway, WhatsApp gateway, ads reporting server, scheduling agent, and ERP automation.
 
-**Client work** — [KotakFoto.id](https://kotakfoto.id) *(storefront + organic social auto-poster)* · [Birojodoh Rumaysho](https://birojodoh.rumaysho.com) *(ta'aruf platform, maintained since 2025)* · [AI Club Indonesia](https://aiclub.id) *(community platform, Telegram ops bot, automated video generator)*
+**Client work** — [Waffles](https://waffles.id) *(AI conversion assistant for websites — Cloudflare-native: Astro edge worker, private Hono API over service bindings, multi-D1 Drizzle, RAG ingestion, Durable Object quotas)* · Provaliant *(guided campaign workspace for agencies — campaign board, staged workflow, AI video generation pipeline)* · [KotakFoto.id](https://kotakfoto.id) *(storefront + organic social auto-poster)* · [Birojodoh Rumaysho](https://birojodoh.rumaysho.com) *(ta'aruf platform, maintained since 2025)* · [AI Club Indonesia](https://aiclub.id) *(community platform, Telegram ops bot, automated video generator)*
 
 **Under NDA** — named clients withheld; the shape of the work:
 
 - Growth OS for a Hajj & Umrah travel operator — pilgrimage package catalog, lead capture routed to the nearest branch, and per-region dynamic landing pages generated from a geo-to-branch mapping. Bun · Astro · Hono · Drizzle · Postgres.
 - Settlement reconciliation for a multi-outlet F&B group — matches incoming payments against ShopeeFood, GoFood, GoPay, and GrabFood merchant settlements via an IMAP ingestion worker.
+- Delivery operations platform for a software agency — a monorepo carrying every paid engagement from blueprint through data model, integrations, API contract, and QA acceptance, behind a production operations dashboard.
+- Multi-tenant online course platform — public, member, and tenant-admin surfaces, payment callbacks, and a service-token integration into the delivery platform above.
 - Software licensing & telemetry server for a distributed desktop product.
 - ERP for a manufacturing group.
 - Attribution and lead-source tracking for a permit & licensing consultancy.
