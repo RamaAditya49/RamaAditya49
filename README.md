@@ -100,10 +100,11 @@ Bulk-deletes Cloudflare Pages & Workers deployments. Fixes *"too many deployment
 
 **Rama Digital** — internal platform: ads manager, SEO research gateway, WhatsApp gateway, ads reporting server, scheduling agent, and ERP automation.
 
-**Client work** — [Almira Travel](https://almiratravel.co.id) *(Growth OS for a Hajj & Umrah operator — Bun · Astro · Hono · Drizzle · Postgres, with per-region dynamic landing pages)* · [KotakFoto.id](https://kotakfoto.id) *(storefront + organic social auto-poster)* · [Birojodoh Rumaysho](https://birojodoh.rumaysho.com) *(ta'aruf platform, maintained since 2025)* · [AI Club Indonesia](https://aiclub.id) *(community platform, Telegram ops bot, automated video generator)*
+**Client work** — [KotakFoto.id](https://kotakfoto.id) *(storefront + organic social auto-poster)* · [Birojodoh Rumaysho](https://birojodoh.rumaysho.com) *(ta'aruf platform, maintained since 2025)* · [AI Club Indonesia](https://aiclub.id) *(community platform, Telegram ops bot, automated video generator)*
 
 **Under NDA** — named clients withheld; the shape of the work:
 
+- Growth OS for a Hajj & Umrah travel operator — pilgrimage package catalog, lead capture routed to the nearest branch, and per-region dynamic landing pages generated from a geo-to-branch mapping. Bun · Astro · Hono · Drizzle · Postgres.
 - Settlement reconciliation for a multi-outlet F&B group — matches incoming payments against ShopeeFood, GoFood, GoPay, and GrabFood merchant settlements via an IMAP ingestion worker.
 - Software licensing & telemetry server for a distributed desktop product.
 - ERP for a manufacturing group.
