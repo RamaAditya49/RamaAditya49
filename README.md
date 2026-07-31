@@ -125,20 +125,23 @@ Bulk-deletes Cloudflare Pages & Workers deployments. Fixes *"too many deployment
 
 ## SEO Results · Hasil SEO
 
-Saya menjual jasa attribution, jadi wajar kalau situs saya sendiri diukur dengan cara yang sama. `ramadigital.id` di Google Search Console, dua jendela 28 hari berjarak satu tahun:
+Saya menjual jasa attribution, jadi wajar kalau situs saya sendiri diukur dengan cara yang sama. **15 dari 23 halaman layanan `ramadigital.id` ada di halaman 1 Google, posisi rata-rata 6,2.**
 
-| | 1–28 Agu 2025 | 1–28 Jul 2026 | |
-|---|---:|---:|:---|
-| Klik | 11 | **657** | 60× |
-| Impresi | 433 | **49.344** | 114× |
-| Posisi rata-rata | 31,5 | **9,8** | |
-| Query terlapor | 61 | **2.057** | 34× |
+| Halaman layanan | Posisi | Klik |
+|---|:---:|---:|
+| [Pelatihan AI SEO & GEO](https://ramadigital.id/services/pelatihan-ai-seo-geo) | **2,7** | 12 |
+| [OpenClaw CRM Operating System](https://ramadigital.id/services/openclaw-crm-operating-system) | **3,3** | — |
+| [Jasa Install Hermes Agent](https://ramadigital.id/services/jasa-install-hermes-agent) | **6,4** | 6 |
+| [Pelatihan AI Tim Perusahaan](https://ramadigital.id/services/pelatihan-ai-perusahaan) | **6,5** | 2 |
+| [Jasa Install OpenClaw](https://ramadigital.id/services/jasa-install-openclaw) | **6,9** | 27 |
+| [Jasa Install QwenPaw](https://ramadigital.id/services/jasa-install-qwenpaw) | **8,2** | 1 |
+| [Web Application Development](https://ramadigital.id/services/web-application-development) | **8,2** | — |
 
-Total 12 bulan terakhir: **3.467 klik** dari **169.435 impresi**, posisi rata-rata **9,4**.
+Untuk keyword-nya sendiri, **`jasa install openclaw` ada di posisi 1,2** — praktis juara satu. Penyumbang trafik organik terbesar adalah panduan instalasi agent: [Windows](https://ramadigital.id/blog/cara-install-hermes-agent-di-windows), [Linux](https://ramadigital.id/blog/cara-install-hermes-agent-di-linux), dan [macOS](https://ramadigital.id/blog/cara-install-hermes-agent-di-macos).
 
-Saat ini **1.355 query ada di halaman 1** dan **165 di posisi 1–3** — termasuk [`jasa install openclaw`](https://ramadigital.id/services/jasa-install-openclaw) di **posisi 1,2**. Penyumbang trafik organik terbesar adalah panduan instalasi agent: [Windows](https://ramadigital.id/blog/cara-install-hermes-agent-di-windows), [Linux](https://ramadigital.id/blog/cara-install-hermes-agent-di-linux), dan [macOS](https://ramadigital.id/blog/cara-install-hermes-agent-di-macos).
+Pertumbuhan situs dalam 12 bulan, jendela 28 hari yang sama tahun lalu vs sekarang: klik **11 → 657** (60×), impresi **433 → 49.344** (114×). Total setahun: **3.467 klik** dari **169.435 impresi**.
 
-<sub>Ditarik langsung dari Search Console API pada 31 Juli 2026 (`sc-domain:ramadigital.id`, pencarian web). Total situs memakai dimensi <em>date</em>; hitungan query memakai dimensi <em>query</em> sehingga tidak mencakup long-tail yang dianonimkan Google.</sub>
+<sub>Ditarik langsung dari Search Console API pada 31 Juli 2026 (`sc-domain:ramadigital.id`, pencarian web, 1–28 Juli 2026). Posisi dan klik per halaman memakai dimensi <em>page</em>; total situs memakai dimensi <em>date</em>. Tanda — berarti halaman sudah ranking tapi belum menghasilkan klik di jendela ini.</sub>
 
 ---
 
