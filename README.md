@@ -1,115 +1,160 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Rama%20Aditya&fontSize=36&fontColor=fff&animation=fadeIn&fontAlignY=40&desc=Digital%20Architect%20%7C%20Attribution%20Expert%20%7C%20Fullstack%20Developer&descAlignY=60&descSize=14" width="100%"/>
-</div>
 
-<div align="center">
-  <a href="https://ramadigital.id" target="_blank" rel="noopener noreferrer">
-    <img src="https://avatars.githubusercontent.com/u/213913142?v=4" width="120" alt="Rama Aditya" style="border-radius:50%;" />
-  </a>
-</div>
+<a href="https://ramadigital.id"><img src="https://avatars.githubusercontent.com/u/213913142?v=4" width="110" alt="Rama Aditya"/></a>
 
-<div align="center">
+# Rama Aditya
 
-**Fullstack Developer & Digital Marketing Consultant** — 10+ tahun membantu bisnis tumbuh melalui teknologi, data, dan strategi marketing yang terukur.
+**AI Agent Infrastructure · Attribution Engineering · Open Source**
 
-Fokus utama saat ini: **memperbaiki tracking & attribution** agar budget iklan tidak terbuang sia-sia.
+Fullstack engineer & digital marketing consultant — Bali, Indonesia.
+I build agent runtimes, attribution infrastructure, and the systems that keep ad budgets honest.
 
-[![Email](https://img.shields.io/badge/Email-halo@ramadigital.id-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:halo@ramadigital.id)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-ramaaditya49-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ramaaditya49)
-[![Website](https://img.shields.io/badge/Web-ramadigital.id-4CAF50?style=flat-square&logo=Google%20Chrome&logoColor=white)](https://ramadigital.id)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-Konsultasi%20Gratis-25D366?style=flat-square&logo=whatsapp&logoColor=white)](https://api.whatsapp.com/send?phone=6285803327994&text=Assalamu'alaikum%20Pak%20Rama,%20saya%20tertarik%20untuk%20konsultasi%20gratis)
+[![Website](https://img.shields.io/badge/ramadigital.id-111?style=for-the-badge&logo=googlechrome&logoColor=4CAF50)](https://ramadigital.id)
+[![Email](https://img.shields.io/badge/halo@ramadigital.id-111?style=for-the-badge&logo=gmail&logoColor=EA4335)](mailto:halo@ramadigital.id)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-111?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://www.linkedin.com/in/ramaaditya49)
+[![WhatsApp](https://img.shields.io/badge/Konsultasi%20Gratis-111?style=for-the-badge&logo=whatsapp&logoColor=25D366)](https://api.whatsapp.com/send?phone=6285803327994&text=Assalamu'alaikum%20Pak%20Rama,%20saya%20tertarik%20untuk%20konsultasi%20gratis)
+
+**10,983** contributions · **46** public repos · **138**★ · **5** organizations — *last 12 months*
 
 </div>
 
 ---
 
-## Tentang Saya
+## Open Source · Sumber Terbuka
 
-Saya membantu business owner yang mengalami masalah **iklan boncos** — budget habis tapi closing minim. Dari pengalaman, 90% masalahnya bukan di creative atau targeting, tapi di **tracking yang berantakan**. Ketika tracking rusak, algoritma Meta & Google tidak bisa belajar, dan budget terbuang ke audience yang salah.
+<table>
+<tr>
+<td width="50%" valign="top">
 
-Pendekatan saya: **fix tracking dulu, baru optimasi strategi**. Data yang akurat = keputusan yang tepat = profit naik.
+<a href="https://github.com/Growth-Circle/cadis"><img src="https://cadis.digital/hud.webp" alt="C.A.D.I.S. desktop HUD"/></a>
 
-Selain attribution, saya juga mengerjakan proyek fullstack development, custom system, dan konsultasi digital marketing secara end-to-end.
+### [C.A.D.I.S.](https://github.com/Growth-Circle/cadis) ![](https://img.shields.io/github/stars/Growth-Circle/cadis?style=flat-square&label=&color=4CAF50&labelColor=111)
+
+Rust-first, local-first **multi-agent runtime**. Desktop HUD, policy-gated tools, voice I/O, and worktree-isolated coding agents.
+
+`Rust` `Tauri` `React` — [cadis.digital](https://cadis.digital)
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://github.com/RamaAditya49/peta-pixel-nusantara"><img src="https://raw.githubusercontent.com/RamaAditya49/peta-pixel-nusantara/main/assets/preview.png" alt="Pixel map of Indonesia"/></a>
+
+### [peta-pixel-nusantara](https://github.com/RamaAditya49/peta-pixel-nusantara) ![](https://img.shields.io/github/stars/RamaAditya49/peta-pixel-nusantara?style=flat-square&label=&color=4CAF50&labelColor=111)
+
+8-bit **pixel map of Indonesia** — 38 provinces and 519 ADM2 regions on an interactive canvas grid.
+
+`Canvas` `TopoJSON` `geoBoundaries`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [tutur](https://github.com/RamaAditya49/tutur) ![](https://img.shields.io/github/stars/RamaAditya49/tutur?style=flat-square&label=&color=4CAF50&labelColor=111)
+
+Indonesian writing skill for AI agents — natural, human, register-aware text. Stops LLM output from reading like a translation.
+
+</td>
+<td width="50%" valign="top">
+
+### [cloudflare-bulk-delete](https://github.com/RamaAditya49/cloudflare-bulk-delete) ![](https://img.shields.io/github/stars/RamaAditya49/cloudflare-bulk-delete?style=flat-square&label=&color=4CAF50&labelColor=111)
+
+Bulk-deletes Cloudflare Pages & Workers deployments. Fixes *"too many deployments to be deleted"* in minutes instead of hours.
+
+</td>
+</tr>
+</table>
+
+**Agent infrastructure** — [growcli](https://github.com/Growth-Circle/growcli) · [titen](https://github.com/RamaAditya49/titen) · [ai-agentic](https://github.com/RamaAditya49/ai-agentic) · [gc-provider](https://github.com/Growth-Circle/gc-provider) · [coret-agent-kit](https://github.com/Rama-Digital/coret-agent-kit) · [openclaw-auth-wiper](https://github.com/Growth-Circle/openclaw-auth-wiper)
+
+**Agent skills** — [rama-marketing](https://github.com/RamaAditya49/rama-marketing) · [rama-copywriting](https://github.com/RamaAditya49/rama-copywriting) · [rama-cs](https://github.com/RamaAditya49/rama-cs) · [seng-jelas](https://github.com/RamaAditya49/seng-jelas)
+
+**Developer tools** — [kill-node-process](https://marketplace.visualstudio.com/items?itemName=RamaDigital.kill-node-process) *(VS Code, cross-platform)*
+
+**Volara SDK suite** — omnichannel chat API in six languages: [TypeScript](https://github.com/volara-asia/volara-js) · [Python](https://github.com/volara-asia/volara-python) · [PHP](https://github.com/volara-asia/volara-php) · [Ruby](https://github.com/volara-asia/volara-ruby) · [Go](https://github.com/volara-asia/volara-go) · [WordPress](https://github.com/volara-asia/volara-wordpress) · [n8n](https://github.com/volara-asia/volara-n8n) · [MCP](https://github.com/volara-asia/volara-mcp) · [widget](https://github.com/volara-asia/volara-widget)
+
+**Collections** — [mdown-collection](https://github.com/ai-builders-id/mdown-collection) · [prd-prompt-collection](https://github.com/ai-builders-id/prd-prompt-collection)
+
+**Contributor** — [openwave](https://github.com/rikkichy/openwave) *(Elgato Wave XLR for Linux)*
+
+---
+
+## Products · Produk
+
+| | Status | |
+|---|:---:|---|
+| [**C.A.D.I.S.**](https://cadis.digital) | Live | Local-first multi-agent runtime for developers. Open source. |
+| [**Konektor**](https://konektor.id) | Live | Attribution bridge — ad click → landing page → WhatsApp → closing, fed back to Google & Meta Ads. |
+| [**Coret**](https://coret.id) | Live | Mindmap & visual-thinking platform with a public API — maps, nodes, sketch, share links. |
+| [**Biver**](https://biver.id) | Live | AI landing-page builder for Indonesian SMEs. No-code. |
+| [**Volara**](https://volara.id) | Live | Omnichannel chat API with a full polyglot SDK suite. *Co-built.* |
+| [**Termilo**](https://termilo.com) | Live | Booking infrastructure for service businesses, agencies, and SaaS teams. |
+| [**Titen**](https://titen.dev) | Live | Collaborative memory fabric for AI agents. Open source. |
+| [**ongkir.online**](https://ongkir.online) | Live | Indonesian shipping-rate lookup. |
+
+---
+
+## Selected Work · Proyek Pilihan
+
+**Growth Circle** — internal operations suite: Meta Ads manager, webinar system, WhatsApp gateway, mail system, URL shortener, LiteLLM gateway, and a multi-tenant managed agent hosting platform.
+
+**Rama Digital** — internal platform: ads manager, SEO research gateway, WhatsApp gateway, ads reporting server, scheduling agent, and ERP automation.
+
+**Client work** — [Almira Travel](https://almiratravel.co.id) *(Growth OS for a Hajj & Umrah operator — Bun · Astro · Hono · Drizzle · Postgres, with per-region dynamic landing pages)* · [KotakFoto.id](https://kotakfoto.id) *(storefront + organic social auto-poster)* · [Birojodoh Rumaysho](https://birojodoh.rumaysho.com) *(ta'aruf platform, maintained since 2025)* · [AI Club Indonesia](https://aiclub.id) *(community platform, Telegram ops bot, automated video generator)*
+
+**Under NDA** — named clients withheld; the shape of the work:
+
+- Settlement reconciliation for a multi-outlet F&B group — matches incoming payments against ShopeeFood, GoFood, GoPay, and GrabFood merchant settlements via an IMAP ingestion worker.
+- Software licensing & telemetry server for a distributed desktop product.
+- ERP for a manufacturing group.
+- Attribution and lead-source tracking for a permit & licensing consultancy.
+
+---
+
+## Stack
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=rust,go,ts,js,py,php,vue,nuxtjs,react,nextjs,astro,svelte,tailwind&theme=dark" /><br/>
+  <img src="https://skillicons.dev/icons?i=nodejs,nestjs,bun,laravel,postgres,mongodb,redis,docker,cloudflare,tauri,linux,git&theme=dark" />
+</div>
 
 ---
 
 ## Layanan
 
-| Layanan | Deskripsi |
-|---------|-----------|
-| [Data Health Audit](https://www.ramadigital.id/services/attribution-bridge/data-health-audit) | Audit tracking & identifikasi kebocoran budget iklan |
-| [Attribution Bridge](https://www.ramadigital.id/services/attribution-bridge/basic) | Software tracking end-to-end: iklan → landing page → WhatsApp → closing feedback ke platform |
-| [Digital Ads Management](https://ramadigital.id/jasa-iklan-digital.html) | Optimasi campaign berbasis data |
-| [Website Development](https://ramadigital.id/jasa-pembuatan-website.html) | Website conversion-focused |
-| [Sistem Kustom](https://ramadigital.id/jasa-pembuatan-sistem.html) | Sistem disesuaikan alur kerja bisnis |
+Saya membantu business owner yang iklannya boncos — budget habis tapi closing minim. Dari pengalaman, sebagian besar masalahnya bukan di creative atau targeting, tapi di **tracking yang berantakan**. Ketika tracking rusak, algoritma Meta & Google tidak bisa belajar, dan budget terbuang ke audience yang salah. Pendekatan saya: perbaiki tracking dulu, baru optimasi strategi.
 
-Konsultasi diagnostik 30-45 menit **gratis**, tanpa komitmen. [Hubungi via WhatsApp](https://api.whatsapp.com/send?phone=6285803327994&text=Assalamu'alaikum%20Pak%20Rama,%20saya%20tertarik%20untuk%20konsultasi%20gratis).
+| | |
+|---|---|
+| [Data Health Audit](https://ramadigital.id/services/attribution-bridge/data-health-audit) | Audit tracking & identifikasi kebocoran budget iklan |
+| [Attribution Bridge](https://ramadigital.id/services/attribution-bridge) | Tracking end-to-end: iklan → landing page → WhatsApp → closing feedback ke platform |
+| [Web Application Development](https://ramadigital.id/services/web-application-development) | Website conversion-focused dan sistem yang mengikuti alur kerja bisnis |
+| [AI Consulting & Pelatihan](https://ramadigital.id/services/ai-consulting) | Audit workflow, roadmap implementasi, dan pelatihan AI untuk tim perusahaan |
 
----
-
-## Proyek
-
-| Proyek | Status | Deskripsi |
-|--------|--------|-----------|
-| [Konektor](https://konektor.id) | ✅ Live | Attribution bridge — tracking WhatsApp click & closing feedback ke Google/Meta Ads |
-| [Biver](https://biver.id) | ✅ Live | Landing page builder untuk UMKM Indonesia — buat website promosi dengan AI, tanpa coding |
-| [Birojodoh Rumaysho](https://birojodoh.rumaysho.com) | ✅ Live | Fullstack Laravel — sistem ta'aruf online (actively maintained) |
-| [5min.report](https://5min.report) | ⏸ Postponed | AI report generator — ditunda, belum ada partner |
-| ongkir.online | ⏸ Postponed (Internal) | Project internal only, tidak untuk publik saat ini |
-| Time2shine | 90% | AI-powered booking system |
+Konsultasi diagnostik 30–45 menit **gratis**, tanpa komitmen — [hubungi via WhatsApp](https://api.whatsapp.com/send?phone=6285803327994&text=Assalamu'alaikum%20Pak%20Rama,%20saya%20tertarik%20untuk%20konsultasi%20gratis).
 
 ---
-
-## Open Source
-
-- [cloudflare-bulk-delete](https://github.com/RamaAditya49/cloudflare-bulk-delete) — CLI tool untuk bulk delete Cloudflare deployments. 90+ downloads/bulan.
-- [Kill Node Process](https://marketplace.visualstudio.com/items?itemName=RamaDigital.kill-node-process) — VS Code extension untuk kill Node.js processes dari status bar. Cross-platform.
-
----
-
-## Tech Stack
-
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,vue,tailwind,nodejs,nestjs,php,laravel,python,postgresql,mongodb,docker,cloudflare,git&theme=dark" />
-</div>
-
----
-
-## Sedang Dipelajari
-
-- **OpenClaw** — Sedang riset dan implementasi OpenClaw untuk berbagai use case nyata, mulai dari workflow automation hingga integrasi dengan sistem yang sudah berjalan.
-- **AI + Edge Computing** — Eksplorasi kombinasi AI dengan Cloudflare Workers untuk solusi yang lebih cepat dan efisien.
-
----
-
-## GitHub Stats
 
 <div align="center">
 
-  ![Profile Views](https://komarev.com/ghpvc/?username=RamaAditya49&color=4CAF50&style=flat-square&label=Profile+Views)
-  ![Followers](https://img.shields.io/github/followers/RamaAditya49?style=flat-square&color=4CAF50&label=Followers)
-  ![Stars](https://img.shields.io/github/stars/RamaAditya49?style=flat-square&color=4CAF50&label=Total+Stars&affiliations=OWNER)
-
-</div>
-
-<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=RamaAditya49&theme=github_dark"/>
   <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=RamaAditya49&theme=github"/>
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=RamaAditya49&theme=github_dark"/>
   <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=RamaAditya49&theme=github"/>
-</div>
+</picture>
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=RamaAditya49&theme=default&background=ffffff&stroke=e0e0e0&ring=4CAF50&fire=FF6B6B&currStreakLabel=4CAF50&border=e0e0e0&sideLabels=333333&currStreakNum=4CAF50&sideNums=4CAF50&dates=666666"/>
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=RamaAditya49&theme=github-compact&hide_border=true&custom_title=Contribution%20Activity"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=RamaAditya49&theme=minimal&bg_color=ffffff&color=333333&line=4CAF50&point=FF6B6B&area=true&area_color=4CAF50&hide_border=true&custom_title=Contribution%20Activity"/>
+</picture>
 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=RamaAditya49&theme=minimal&bg_color=ffffff&color=333333&line=4CAF50&point=FF6B6B&area=true&area_color=4CAF50&hide_border=false&custom_title=Aktivitas%20Kontribusi"/>
-</div>
+<em>"Sebaik-baik manusia adalah yang paling bermanfaat bagi manusia."</em> — HR. Ahmad
 
----
+Jazakallahu khairan sudah mampir. Semoga bermanfaat.
 
-<div align="center">
-  <p><em>"Sebaik-baik manusia adalah yang paling bermanfaat bagi manusia."</em> — HR. Ahmad</p>
-  <p>Jazakallahu khairan sudah mampir. Semoga bermanfaat.</p>
+<sub>© 2026 Rama Digital — Indonesia</sub>
 
-  <sub>© 2026 Rama Digital — Indonesia</sub>
 </div>
