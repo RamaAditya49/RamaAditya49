@@ -127,12 +127,24 @@ Bulk-deletes Cloudflare Pages & Workers deployments. Fixes *"too many deployment
 
 Saya membantu business owner yang iklannya boncos — budget habis tapi closing minim. Dari pengalaman, sebagian besar masalahnya bukan di creative atau targeting, tapi di **tracking yang berantakan**. Ketika tracking rusak, algoritma Meta & Google tidak bisa belajar, dan budget terbuang ke audience yang salah. Pendekatan saya: perbaiki tracking dulu, baru optimasi strategi.
 
-| | |
-|---|---|
-| [Data Health Audit](https://ramadigital.id/services/attribution-bridge/data-health-audit) | Audit tracking & identifikasi kebocoran budget iklan |
-| [Attribution Bridge](https://ramadigital.id/services/attribution-bridge) | Tracking end-to-end: iklan → landing page → WhatsApp → closing feedback ke platform |
-| [Web Application Development](https://ramadigital.id/services/web-application-development) | Website conversion-focused dan sistem yang mengikuti alur kerja bisnis |
-| [AI Consulting & Pelatihan](https://ramadigital.id/services/ai-consulting) | Audit workflow, roadmap implementasi, dan pelatihan AI untuk tim perusahaan |
+| Layanan | | Mulai dari |
+|---|---|---|
+| [AI Diagnostic](https://ramadigital.id/services/ai-diagnostic) | Sesi diagnostik: di mana AI benar-benar layak dipakai di bisnismu | **$65** |
+| [Data Health Audit](https://ramadigital.id/services/attribution-bridge/data-health-audit) | Audit tracking & identifikasi kebocoran budget iklan | **$220** |
+| [AI Workflow Audit](https://ramadigital.id/services/ai-workflow-audit) | Bedah workflow tim, tandai yang bisa diotomasi | **$220** |
+| [Pelatihan AI SEO & GEO](https://ramadigital.id/services/pelatihan-ai-seo-geo) | Workshop SEO + Generative Engine Optimization | **$215** |
+| [Attribution Bridge](https://ramadigital.id/services/attribution-bridge) | Tracking end-to-end: iklan → landing page → WhatsApp → closing feedback ke platform | **$415** |
+| [Pelatihan AI Tim Perusahaan](https://ramadigital.id/services/pelatihan-ai-perusahaan) | Pelatihan agentic AI untuk tim internal | **$540** |
+| [AI Implementation Roadmap](https://ramadigital.id/services/ai-implementation-roadmap) | Roadmap implementasi AI beserta urutan dan prioritasnya | **$660** |
+| [Agent install](https://ramadigital.id/services/jasa-install-openclaw) | Setup OpenClaw / Hermes / QwenPaw di infrastrukturmu | **$330** |
+| [OpenClaw Meta Ads OS](https://ramadigital.id/services/openclaw-meta-ads-operating-system) | Operasi Meta Ads dijalankan agent, bukan manual | **$830** |
+| [OpenClaw CRM OS](https://ramadigital.id/services/openclaw-crm-operating-system) | CRM yang dioperasikan agent, terhubung ke WhatsApp & iklan | **$1,380** |
+| [Web Application Development](https://ramadigital.id/services/web-application-development) | Sistem kustom yang mengikuti alur kerja bisnis | **$1,380** |
+| [Local AI Server](https://ramadigital.id/services/local-ai-server-perusahaan) | LLM on-premise untuk perusahaan — data tidak keluar kantor | **$5,470** |
+
+Berlangganan bulanan: [Attribution Retainer](https://ramadigital.id/services/attribution-bridge/retainer) **$330/bln** · [AI Advisory Retainer](https://ramadigital.id/services/ai-advisory-retainer) **$440/bln** · [Monthly Growth Consulting](https://ramadigital.id/services/monthly-growth-consulting) **$330/bln** · [Kelola Sosmed](https://ramadigital.id/services/jasa-kelola-sosmed) **$220/bln**
+
+<sub>Harga indikatif, dikonversi dari IDR pada kurs Rp 18.079/USD (30 Jul 2026); penagihan tetap dalam Rupiah. Ini sebagian dari 26 layanan — daftar lengkap di **[ramadigital.id/services](https://ramadigital.id/services)**.</sub>
 
 Konsultasi diagnostik 30–45 menit **gratis**, tanpa komitmen — [hubungi via WhatsApp](https://api.whatsapp.com/send?phone=6285803327994&text=Assalamu'alaikum%20Pak%20Rama,%20saya%20tertarik%20untuk%20konsultasi%20gratis).
 
