@@ -27,44 +27,45 @@ I build agent runtimes, attribution infrastructure, and the systems that keep ad
 
 ### Live on npm
 
-<table>
-<tr>
-<td width="50%" valign="top">
+<a href="https://github.com/RamaAditya49/titen"><img src="https://raw.githubusercontent.com/RamaAditya49/titen/main/docs/assets/readme/titen-hero.svg" width="100%" alt="Titen — self-hosted agent memory with no API key and no LLM"/></a>
 
-<a href="https://titen.dev"><img src="https://titen.dev/og.png" alt="Titen — agent memory that needs no API key"/></a>
+#### [Titen](https://github.com/RamaAditya49/titen) — agent memory with no API key, no LLM, no embedding provider
 
-### [Titen](https://github.com/RamaAditya49/titen) ![](https://img.shields.io/github/stars/RamaAditya49/titen?style=flat-square&label=&color=4CAF50&labelColor=111)
+[![npm](https://img.shields.io/npm/v/titen-memory?style=flat-square&label=npm&color=4CAF50&labelColor=111)](https://www.npmjs.com/package/titen-memory)
+[![downloads](https://img.shields.io/npm/dm/titen-memory?style=flat-square&label=downloads&color=4CAF50&labelColor=111)](https://www.npmjs.com/package/titen-memory)
+[![stars](https://img.shields.io/github/stars/RamaAditya49/titen?style=flat-square&label=%E2%98%85&color=4CAF50&labelColor=111)](https://github.com/RamaAditya49/titen)
+[![license](https://img.shields.io/badge/Apache--2.0-111?style=flat-square)](https://github.com/RamaAditya49/titen/blob/main/LICENSE)
 
-[![npm](https://img.shields.io/npm/v/titen-memory?style=flat-square&label=npm&color=4CAF50&labelColor=111)](https://www.npmjs.com/package/titen-memory) [![downloads](https://img.shields.io/npm/dm/titen-memory?style=flat-square&label=downloads&color=4CAF50&labelColor=111)](https://www.npmjs.com/package/titen-memory)
-
-**Agent memory with no API key, no LLM, no embedding provider.** One command and it serves MCP over stdio against a local SQLite store — a drop-in for the MCP reference memory server. Every memory keeps its source, who may read it, and the evidence that contradicts it.
+One command and it serves MCP over stdio against a local SQLite store — a drop-in for the MCP reference memory server, or Cloudflare Workers + D1 when it needs to be shared. Every memory keeps its source, who may read it, and the evidence that contradicts it.
 
 ```
 npx titen-memory mcp
 ```
 
-`TypeScript` `Bun` `SQLite` `D1` — [titen.dev](https://titen.dev)
+<a href="https://github.com/RamaAditya49/titen#what-is-different-about-it"><img src="https://raw.githubusercontent.com/RamaAditya49/titen/main/docs/assets/readme/titen-flow.svg" width="100%" alt="The kernel loop: observe, consolidate, compile, evidence — under one authorization and evidence boundary"/></a>
 
-</td>
-<td width="50%" valign="top">
+`TypeScript` `Bun` `SQLite` `D1` `MCP` — [titen.dev](https://titen.dev)
 
-<a href="https://caraka.dev"><img src="https://caraka.dev/og/og-landing.png" alt="Caraka — send the task, Caraka runs it"/></a>
+<br/>
 
-### [Caraka](https://github.com/CarakaDev/caraka) ![](https://img.shields.io/github/stars/CarakaDev/caraka?style=flat-square&label=&color=4CAF50&labelColor=111)
+<a href="https://github.com/CarakaDev/caraka"><img src="https://raw.githubusercontent.com/CarakaDev/caraka/main/assets/banner.svg" width="100%" alt="Caraka — send the task, Caraka runs it"/></a>
 
-[![npm](https://img.shields.io/npm/v/caraka?style=flat-square&label=npm&color=4CAF50&labelColor=111)](https://www.npmjs.com/package/caraka) [![downloads](https://img.shields.io/npm/dm/caraka?style=flat-square&label=downloads&color=4CAF50&labelColor=111)](https://www.npmjs.com/package/caraka)
+#### [Caraka](https://github.com/CarakaDev/caraka) — send the task, Caraka runs it
 
-**Send the task. Caraka runs it.** A thin bridge from Telegram, Discord, or WhatsApp to the coding agent already on your machine — no agent loop, no model provider, no plugin market. Only identity, sessions, approvals, and audit.
+[![npm](https://img.shields.io/npm/v/caraka?style=flat-square&label=npm&color=4CAF50&labelColor=111)](https://www.npmjs.com/package/caraka)
+[![downloads](https://img.shields.io/npm/dm/caraka?style=flat-square&label=downloads&color=4CAF50&labelColor=111)](https://www.npmjs.com/package/caraka)
+[![stars](https://img.shields.io/github/stars/CarakaDev/caraka?style=flat-square&label=%E2%98%85&color=4CAF50&labelColor=111)](https://github.com/CarakaDev/caraka)
+[![license](https://img.shields.io/badge/MIT-111?style=flat-square)](https://github.com/CarakaDev/caraka/blob/main/LICENSE)
+
+A thin bridge from Telegram, Discord, or WhatsApp to the coding agent already installed on your machine. No agent loop, no tools, no model provider, no plugin marketplace — your agent has better versions of all four. Caraka adds only what chat needs: identity, sessions, approvals, and audit.
 
 ```
 npx caraka init
 ```
 
-`ACP` `Node 22` `Telegram` — [caraka.dev](https://caraka.dev)
+<a href="https://github.com/CarakaDev/caraka#what-it-is"><img src="https://raw.githubusercontent.com/CarakaDev/caraka/main/assets/flow.svg" width="100%" alt="Telegram topics to Caraka to your coding agent"/></a>
 
-</td>
-</tr>
-</table>
+`ACP` `Node 22` `Telegram` `Discord` `WhatsApp` — [caraka.dev](https://caraka.dev)
 
 ### Projects
 
