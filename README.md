@@ -14,13 +14,59 @@ I build agent runtimes, attribution infrastructure, and the systems that keep ad
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-111?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://www.linkedin.com/in/ramaaditya49)
 [![WhatsApp](https://img.shields.io/badge/Konsultasi%20Gratis-111?style=for-the-badge&logo=whatsapp&logoColor=25D366)](https://api.whatsapp.com/send?phone=6285803327994&text=Assalamu'alaikum%20Pak%20Rama,%20saya%20tertarik%20untuk%20konsultasi%20gratis)
 
-**10,983** contributions · **46** public repos · **138**★ · **5** organizations — *last 12 months*
+**11,620** contributions · **41** public repos · **156**★ · **6** organizations — *last 12 months*
+
+[![titen-memory on npm](https://img.shields.io/npm/dm/titen-memory?style=flat-square&label=titen-memory&color=4CAF50&labelColor=111&logo=npm&logoColor=CB3837)](https://www.npmjs.com/package/titen-memory)
+[![caraka on npm](https://img.shields.io/npm/dm/caraka?style=flat-square&label=caraka&color=4CAF50&labelColor=111&logo=npm&logoColor=CB3837)](https://www.npmjs.com/package/caraka)
 
 </div>
 
 ---
 
 ## Open Source · Sumber Terbuka
+
+### Live on npm
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://titen.dev"><img src="https://titen.dev/og.png" alt="Titen — agent memory that needs no API key"/></a>
+
+### [Titen](https://github.com/RamaAditya49/titen) ![](https://img.shields.io/github/stars/RamaAditya49/titen?style=flat-square&label=&color=4CAF50&labelColor=111)
+
+[![npm](https://img.shields.io/npm/v/titen-memory?style=flat-square&label=npm&color=4CAF50&labelColor=111)](https://www.npmjs.com/package/titen-memory) [![downloads](https://img.shields.io/npm/dm/titen-memory?style=flat-square&label=downloads&color=4CAF50&labelColor=111)](https://www.npmjs.com/package/titen-memory)
+
+**Agent memory with no API key, no LLM, no embedding provider.** One command and it serves MCP over stdio against a local SQLite store — a drop-in for the MCP reference memory server. Every memory keeps its source, who may read it, and the evidence that contradicts it.
+
+```
+npx titen-memory mcp
+```
+
+`TypeScript` `Bun` `SQLite` `D1` — [titen.dev](https://titen.dev)
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://caraka.dev"><img src="https://caraka.dev/og/og-landing.png" alt="Caraka — send the task, Caraka runs it"/></a>
+
+### [Caraka](https://github.com/CarakaDev/caraka) ![](https://img.shields.io/github/stars/CarakaDev/caraka?style=flat-square&label=&color=4CAF50&labelColor=111)
+
+[![npm](https://img.shields.io/npm/v/caraka?style=flat-square&label=npm&color=4CAF50&labelColor=111)](https://www.npmjs.com/package/caraka) [![downloads](https://img.shields.io/npm/dm/caraka?style=flat-square&label=downloads&color=4CAF50&labelColor=111)](https://www.npmjs.com/package/caraka)
+
+**Send the task. Caraka runs it.** A thin bridge from Telegram, Discord, or WhatsApp to the coding agent already on your machine — no agent loop, no model provider, no plugin market. Only identity, sessions, approvals, and audit.
+
+```
+npx caraka init
+```
+
+`ACP` `Node 22` `Telegram` — [caraka.dev](https://caraka.dev)
+
+</td>
+</tr>
+</table>
+
+### Projects
 
 <table>
 <tr>
@@ -65,7 +111,7 @@ Bulk-deletes Cloudflare Pages & Workers deployments. Fixes *"too many deployment
 </tr>
 </table>
 
-**Agent infrastructure** — [growcli](https://github.com/Growth-Circle/growcli) · [titen](https://github.com/RamaAditya49/titen) · [ai-agentic](https://github.com/RamaAditya49/ai-agentic) · [gc-provider](https://github.com/Growth-Circle/gc-provider) · [coret-agent-kit](https://github.com/Rama-Digital/coret-agent-kit) · [openclaw-auth-wiper](https://github.com/Growth-Circle/openclaw-auth-wiper)
+**Agent infrastructure** — [growcli](https://github.com/Growth-Circle/growcli) · [ai-agentic](https://github.com/RamaAditya49/ai-agentic) · [gc-provider](https://github.com/Growth-Circle/gc-provider) · [coret-agent-kit](https://github.com/Rama-Digital/coret-agent-kit) · [openclaw-auth-wiper](https://github.com/Growth-Circle/openclaw-auth-wiper)
 
 **Agent skills** — [rama-marketing](https://github.com/RamaAditya49/rama-marketing) · [rama-copywriting](https://github.com/RamaAditya49/rama-copywriting) · [rama-cs](https://github.com/RamaAditya49/rama-cs) · [seng-jelas](https://github.com/RamaAditya49/seng-jelas)
 
@@ -89,7 +135,8 @@ Bulk-deletes Cloudflare Pages & Workers deployments. Fixes *"too many deployment
 | [**Biver**](https://biver.id) | Live | AI landing-page builder for Indonesian SMEs. No-code. |
 | [**Volara**](https://volara.id) | Live | Omnichannel chat API with a full polyglot SDK suite. *Co-built.* |
 | [**Termilo**](https://termilo.com) | Live | Booking infrastructure for service businesses, agencies, and SaaS teams. |
-| [**Titen**](https://titen.dev) | Live | Collaborative memory fabric for AI agents. Open source. |
+| [**Titen**](https://titen.dev) | Live | Collaborative memory fabric for AI agents. Open source, on npm as `titen-memory`. |
+| [**Caraka**](https://caraka.dev) | Live | Chat-to-coding-agent bridge over ACP. Open source, on npm as `caraka`. |
 | [**ongkir.online**](https://ongkir.online) | Live | Indonesian shipping-rate lookup. |
 
 ---
