@@ -14,7 +14,7 @@ I build agent runtimes, attribution infrastructure, and the systems that keep ad
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-111?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://www.linkedin.com/in/ramaaditya49)
 [![WhatsApp](https://img.shields.io/badge/Konsultasi%20Gratis-111?style=for-the-badge&logo=whatsapp&logoColor=25D366)](https://api.whatsapp.com/send?phone=6285803327994&text=Assalamu'alaikum%20Pak%20Rama,%20saya%20tertarik%20untuk%20konsultasi%20gratis)
 
-**11,620** contributions · **41** public repos · **156**★ · **6** organizations — *last 12 months*
+**17,349** contributions · **46** public repos · **196**★ · **7** organizations — *last 12 months*
 
 [![titen-memory on npm](https://img.shields.io/npm/dm/titen-memory?style=flat-square&label=titen-memory&color=4CAF50&labelColor=111&logo=npm&logoColor=CB3837)](https://www.npmjs.com/package/titen-memory)
 [![caraka on npm](https://img.shields.io/npm/dm/caraka?style=flat-square&label=caraka&color=4CAF50&labelColor=111&logo=npm&logoColor=CB3837)](https://www.npmjs.com/package/caraka)
@@ -114,13 +114,15 @@ Bulk-deletes Cloudflare Pages & Workers deployments. Fixes *"too many deployment
 
 **Agent infrastructure** — [growcli](https://github.com/Growth-Circle/growcli) · [ai-agentic](https://github.com/RamaAditya49/ai-agentic) · [gc-provider](https://github.com/Growth-Circle/gc-provider) · [coret-agent-kit](https://github.com/Rama-Digital/coret-agent-kit) · [openclaw-auth-wiper](https://github.com/Growth-Circle/openclaw-auth-wiper)
 
-**Agent skills** — [rama-marketing](https://github.com/RamaAditya49/rama-marketing) · [rama-copywriting](https://github.com/RamaAditya49/rama-copywriting) · [rama-cs](https://github.com/RamaAditya49/rama-cs) · [seng-jelas](https://github.com/RamaAditya49/seng-jelas)
+**Agent skills** — [rama-marketing](https://github.com/RamaAditya49/rama-marketing) · [rama-copywriting](https://github.com/RamaAditya49/rama-copywriting) · [rama-cs](https://github.com/RamaAditya49/rama-cs) · [bahasa-jelas-terkendali](https://github.com/RamaAditya49/bahasa-jelas-terkendali) *(Indonesian copy that is clear, specific, and evidence-based)* · [seng-jelas](https://github.com/RamaAditya49/seng-jelas)
+
+**Team workspaces** — [grow-team](https://github.com/Growth-Circle/grow-team) *(Zulip-based chat for the Growth Circle team)* · [RD-Team](https://github.com/Rama-Digital/RD-Team) *(humans and agents in one workspace, on a relay you own)*
 
 **Developer tools** — [kill-node-process](https://marketplace.visualstudio.com/items?itemName=RamaDigital.kill-node-process) *(VS Code, cross-platform)*
 
 **Volara SDK suite** — omnichannel chat API in six languages: [TypeScript](https://github.com/volara-asia/volara-js) · [Python](https://github.com/volara-asia/volara-python) · [PHP](https://github.com/volara-asia/volara-php) · [Ruby](https://github.com/volara-asia/volara-ruby) · [Go](https://github.com/volara-asia/volara-go) · [WordPress](https://github.com/volara-asia/volara-wordpress) · [n8n](https://github.com/volara-asia/volara-n8n) · [MCP](https://github.com/volara-asia/volara-mcp) · [widget](https://github.com/volara-asia/volara-widget)
 
-**Collections** — [mdown-collection](https://github.com/ai-builders-id/mdown-collection) · [prd-prompt-collection](https://github.com/ai-builders-id/prd-prompt-collection)
+**AI Builders ID** — [ai-builders-design-system](https://github.com/ai-builders-id/ai-builders-design-system) · [utus](https://github.com/ai-builders-id/utus) · [mdown-collection](https://github.com/ai-builders-id/mdown-collection) · [prd-prompt-collection](https://github.com/ai-builders-id/prd-prompt-collection)
 
 **Contributor** — [openwave](https://github.com/rikkichy/openwave) *(Elgato Wave XLR for Linux)*
 
@@ -138,15 +140,19 @@ Bulk-deletes Cloudflare Pages & Workers deployments. Fixes *"too many deployment
 | [**Termilo**](https://termilo.com) | Live | Booking infrastructure for service businesses, agencies, and SaaS teams. |
 | [**Titen**](https://titen.dev) | Live | Collaborative memory fabric for AI agents. Open source, on npm as `titen-memory`. |
 | [**Caraka**](https://caraka.dev) | Live | Chat-to-coding-agent bridge over ACP. Open source, on npm as `caraka`. |
+| [**Nayaka**](https://nayaka.studio) | Live | One brief in, a finished ad video out in three minutes — script, Indonesian voice, SFX, music, captions, four ratios. Runs on the user's machine. |
+| [**Nucifra**](https://nucifra.com) | Live | Turns a file your agent made into a temporary public URL with the right Content-Type. Video up to 4 GB. |
+| [**Hermes Trading**](https://hermestrading.id) | Live | AI live trading agent on Tokocrypto. Every decision and trade carries a public proof hash. |
+| [**sanji.space**](https://sanji.space) | Early access | Work chat for teams and AI agents — agents split tasks, read Google Drive, and report back in one room. |
 | [**ongkir.online**](https://ongkir.online) | Live | Indonesian shipping-rate lookup. |
 
 ---
 
 ## Selected Work · Proyek Pilihan
 
-**Growth Circle** — internal operations suite: Meta Ads manager, webinar system, WhatsApp gateway, mail system, URL shortener, LiteLLM gateway, and a multi-tenant managed agent hosting platform.
+**Growth Circle** — internal operations suite: Meta Ads manager, webinar system, WhatsApp gateway, mail system, URL shortener, LiteLLM gateway, a shared memory service on Workers + D1 + Vectorize, and a multi-tenant managed agent hosting platform.
 
-**Rama Digital** — internal platform: ads manager, SEO research gateway, WhatsApp gateway, ads reporting server, scheduling agent, and ERP automation.
+**Rama Digital** — internal platform: ads manager, SEO research gateway, WhatsApp gateway, ads reporting server, scheduling agent, and ERP automation. Plus two video engines: `motion-engine` (design composition → MP4 with voice-over, SFX, and music) and `stick-animations` (vertical stick-figure films drawn as pure SVG — no video model, no AI images).
 
 **Client work** — [Waffles](https://waffles.id) *(AI conversion assistant for websites — Cloudflare-native: Astro edge worker, private Hono API over service bindings, multi-D1 Drizzle, RAG ingestion, Durable Object quotas)* · Provaliant *(guided campaign workspace for agencies — campaign board, staged workflow, AI video generation pipeline)* · [KotakFoto.id](https://kotakfoto.id) *(storefront + organic social auto-poster)* · [Birojodoh Rumaysho](https://birojodoh.rumaysho.com) *(ta'aruf platform, maintained since 2025)* · [AI Club Indonesia](https://aiclub.id) *(community platform, Telegram ops bot, automated video generator)*
 
@@ -159,6 +165,9 @@ Bulk-deletes Cloudflare Pages & Workers deployments. Fixes *"too many deployment
 - Software licensing & telemetry server for a distributed desktop product.
 - ERP for a manufacturing group.
 - Attribution and lead-source tracking for a permit & licensing consultancy.
+- Operations ERP for a health-supplement brand — inventory, stock aging, and order ingestion straight from TikTok Shop, Shopee, and Lazada APIs.
+- Agentic CRM for an industrial bearings distributor — answers customers on WhatsApp and Telegram, reads stock and prices from the accounting system, and drafts sales orders and invoices.
+- Clinic marketplace and professional LMS for an optometry ecosystem — location-aware booking, course marketplace, and a practice console.
 
 ---
 
@@ -198,24 +207,53 @@ Dibanding 90 hari yang sama tahun lalu: klik **39 → 1.919** (49×), impresi **
 
 Saya membantu business owner yang iklannya boncos — budget habis tapi closing minim. Dari pengalaman, sebagian besar masalahnya bukan di creative atau targeting, tapi di **tracking yang berantakan**. Ketika tracking rusak, algoritma Meta & Google tidak bisa belajar, dan budget terbuang ke audience yang salah. Pendekatan saya: perbaiki tracking dulu, baru optimasi strategi.
 
-| Layanan | | Mulai dari |
+**Mulai dari cek masalah**
+
+| Layanan | | Harga |
 |---|---|---|
-| [AI Diagnostic](https://ramadigital.id/services/ai-diagnostic) | Sesi diagnostik: di mana AI benar-benar layak dipakai di bisnismu | **$65** |
-| [Data Health Audit](https://ramadigital.id/services/attribution-bridge/data-health-audit) | Audit tracking & identifikasi kebocoran budget iklan | **$220** |
-| [AI Workflow Audit](https://ramadigital.id/services/ai-workflow-audit) | Bedah workflow tim, tandai yang bisa diotomasi | **$220** |
-| [Pelatihan AI SEO & GEO](https://ramadigital.id/services/pelatihan-ai-seo-geo) | Workshop SEO + Generative Engine Optimization | **$215** |
-| [Attribution Bridge](https://ramadigital.id/services/attribution-bridge) | Tracking end-to-end: iklan → landing page → WhatsApp → closing feedback ke platform | **$415** |
-| [Pelatihan AI Tim Perusahaan](https://ramadigital.id/services/pelatihan-ai-perusahaan) | Pelatihan agentic AI untuk tim internal | **$540** |
-| [AI Implementation Roadmap](https://ramadigital.id/services/ai-implementation-roadmap) | Roadmap implementasi AI beserta urutan dan prioritasnya | **$660** |
-| [Agent install](https://ramadigital.id/services/jasa-install-openclaw) | Setup OpenClaw / Hermes / QwenPaw di infrastrukturmu | **$330** |
-| [OpenClaw Meta Ads OS](https://ramadigital.id/services/openclaw-meta-ads-operating-system) | Operasi Meta Ads dijalankan agent, bukan manual | **$830** |
-| [OpenClaw CRM OS](https://ramadigital.id/services/openclaw-crm-operating-system) | CRM yang dioperasikan agent, terhubung ke WhatsApp & iklan | **$1,380** |
-| [Web Application Development](https://ramadigital.id/services/web-application-development) | Sistem kustom yang mengikuti alur kerja bisnis | **$1,380** |
-| [Local AI Server](https://ramadigital.id/services/local-ai-server-perusahaan) | LLM on-premise untuk perusahaan — data tidak keluar kantor | **$5,470** |
+| [AI Diagnostic](https://ramadigital.id/services/ai-diagnostic) | Sesi 60–90 menit: peta titik macet dan peluang AI | **Rp 1,5 jt** |
+| [Jasa Audit SEO & Visibilitas AI](https://ramadigital.id/services/jasa-audit-seo) | Cari sebab situsmu hilang dari Google dan jawaban AI | **mulai Rp 2,52 jt** |
+| [Data Health Audit](https://ramadigital.id/services/data-health-audit) | Audit GA4, Pixel, CAPI, UTM — temukan data yang bocor | **Rp 5 jt** |
+| [AI Workflow Audit](https://ramadigital.id/services/ai-workflow-audit) | Pilih pekerjaan rutin yang layak dibantu AI | **Rp 6 jt** |
+| [Vibe Code Rescue](https://ramadigital.id/services/vibe-code-rescue) | Rapikan aplikasi hasil AI yang mulai rusak | **audit Rp 7,5 jt** |
+| [AI Implementation Roadmap](https://ramadigital.id/services/ai-implementation-roadmap) | Rencana AI 30–90 hari yang bisa dijalankan | **Rp 15 jt** |
 
-Berlangganan bulanan: [Attribution Retainer](https://ramadigital.id/services/attribution-bridge/retainer) **$330/bln** · [AI Advisory Retainer](https://ramadigital.id/services/ai-advisory-retainer) **$440/bln** · [Monthly Growth Consulting](https://ramadigital.id/services/monthly-growth-consulting) **$330/bln** · [Kelola Sosmed](https://ramadigital.id/services/jasa-kelola-sosmed) **$220/bln**
+**Iklan, tracking, dan growth**
 
-<sub>Harga indikatif, dikonversi dari IDR pada kurs Rp 18.079/USD (30 Jul 2026); penagihan tetap dalam Rupiah. Ini sebagian dari 26 layanan — daftar lengkap di **[ramadigital.id/services](https://ramadigital.id/services)**.</sub>
+| Layanan | | Harga |
+|---|---|---|
+| [Attribution Bridge](https://ramadigital.id/services/attribution-bridge) | Iklan → landing page → WhatsApp → closing, dikirim balik ke platform | **mulai Rp 9 jt** |
+| [Jasa Pembuatan Landing Page](https://ramadigital.id/services/jasa-pembuatan-landing-page) | Satu halaman cepat yang siap menerima klik iklan | **Rp 4,9 jt** |
+| [Google Shopping Setup](https://ramadigital.id/services/google-shopping-setup) | Produk tampil di Shopping dengan data feed yang benar | **Rp 7,5 jt** |
+| [Digital Marketing Setup](https://ramadigital.id/services/digital-marketing-setup) | Marketing terukur sejak hari pertama | **Rp 12 jt** |
+| [Setup Sistem Meta Ads dengan AI](https://ramadigital.id/services/openclaw-meta-ads-operating-system) | Operasi Meta Ads dengan operator klien dan decision log | **mulai Rp 15 jt** |
+
+**Agent dan sistem**
+
+| Layanan | | Harga |
+|---|---|---|
+| [Jasa Pembuatan MCP Server](https://ramadigital.id/services/jasa-pembuatan-mcp) | Sambungkan sistem yang sudah ada ke AI agent | **mulai Rp 2,5 jt** |
+| [Jasa Install Hermes Agent](https://ramadigital.id/services/jasa-install-hermes-agent) | Hermes siap pakai: provider, gateway, memory, SOP | **Rp 6 jt** |
+| [AI Agent Ops Install](https://ramadigital.id/services/ai-agent-ops-install) | Agent terpasang dengan batas akses yang jelas | **Rp 7,5–25 jt** |
+| [OS Module: Content Ops](https://ramadigital.id/services/content-ops) | Konten terencana dengan review manusia | **mulai Rp 12 jt** |
+| [Jasa Pembuatan E-commerce](https://ramadigital.id/services/jasa-pembuatan-e-commerce) | Channel jualan dan data customer milik sendiri | **Rp 18 jt** |
+| [OS Module: CRM](https://ramadigital.id/services/openclaw-crm-operating-system) | CRM yang dijalankan agent di dalam Business OS | **mulai Rp 25 jt** |
+| [Web Application Development](https://ramadigital.id/services/web-application-development) | Aplikasi kustom yang mengikuti alur kerja bisnis | **mulai Rp 25 jt** |
+| [Local AI Server](https://ramadigital.id/services/local-ai-server-perusahaan) | LLM on-premise — data tidak keluar kantor | **mulai Rp 99 jt** |
+
+**Pelatihan**
+
+| Layanan | | Harga |
+|---|---|---|
+| [Pelatihan AI SEO & GEO](https://ramadigital.id/services/pelatihan-ai-seo-geo) | Alur kerja SEO dan AI Search yang terukur | **mulai Rp 7,5 jt** |
+| [Pelatihan AI Tim Perusahaan](https://ramadigital.id/services/pelatihan-ai-perusahaan) | Tim memakai AI dengan aturan yang jelas | **mulai Rp 9,8 jt** |
+| [Kokpit Iklan AI](https://ramadigital.id/services/pelatihan-digital-marketing-ai) | Tim marketing membaca data iklan bersama Claude | **Rp 12,5 jt** |
+| [Pelatihan AI Agentic Sekolah & Kampus](https://ramadigital.id/services/pelatihan-ai-agentic) | Guru dan siswa membuat agent untuk tugas nyata — SD, SMP, SMA/SMK, universitas | **mulai Rp 3,9 jt** |
+| [Private AI Software Engineering Apprenticeship](https://ramadigital.id/services/private-ai-software-engineering-apprenticeship) | Bangun satu aplikasi nyata sampai deploy, didampingi | **Rp 50 jt** |
+
+**Bulanan** — [Optimasi Google Maps](https://ramadigital.id/services/jasa-optimasi-google-maps) **mulai Rp 490 rb/bln** · [SEO Bulanan & Visibilitas AI](https://ramadigital.id/services/jasa-seo-bulanan) **mulai Rp 1,08 jt/bln** · [Meta Ads Performance Management](https://ramadigital.id/services/meta-ads-managed) **mulai Rp 2 jt/bln** · [OS Care Retainer](https://ramadigital.id/services/os-care-retainer) **Rp 6–25 jt/bln**
+
+<sub>Harga per 25 Sep 2026, dalam Rupiah. Daftar lengkap dan cakupan tiap layanan di **[ramadigital.id/services](https://ramadigital.id/services)**.</sub>
 
 Konsultasi diagnostik 30–45 menit **gratis**, tanpa komitmen — [hubungi via WhatsApp](https://api.whatsapp.com/send?phone=6285803327994&text=Assalamu'alaikum%20Pak%20Rama,%20saya%20tertarik%20untuk%20konsultasi%20gratis).
 
