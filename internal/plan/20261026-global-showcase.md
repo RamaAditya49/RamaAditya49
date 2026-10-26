@@ -1,7 +1,7 @@
 ---
 type: plan
 id: 20261026-global-showcase
-status: in-progress    # draft | in-progress | blocked | done
+status: done    # draft | in-progress | blocked | done
 spec: internal/spec/20261026-global-showcase.md
 created: 2026-10-26
 updated: 2026-10-26
@@ -22,8 +22,8 @@ Pin diatur lewat browser, karena GraphQL API tidak punya mutation pin repo profi
 - [x] 1. Tulis ulang README — berkas: `README.md` — AC: AC-01, AC-02, AC-03, AC-06 — verifikasi: `grep` di spec
 - [x] 2. Cek semua URL — berkas: `README.md` — AC: AC-05 — verifikasi: `curl` tiap URL
 - [x] 3. Commit dan push — berkas: `README.md`, `internal/` — AC: AC-07 — verifikasi: `git status`, `git log origin/main -1`
-- [ ] 4. Pin 6 repo lewat UI GitHub — berkas: tidak ada — AC: AC-04 — verifikasi: GraphQL `pinnedItems`
-- [ ] 5. Cek profil di browser — AC: AC-07 — verifikasi: screenshot
+- [x] 4. Pin 6 repo lewat UI GitHub — berkas: tidak ada — AC: AC-04 — verifikasi: GraphQL `pinnedItems`
+- [x] 5. Cek profil di browser — AC: AC-07 — verifikasi: screenshot
 
 ## Risiko dan rollback
 
@@ -36,3 +36,5 @@ Pin diatur lewat browser, karena GraphQL API tidak punya mutation pin repo profi
 - 2026-10-26: README ditulis ulang. `ai-builders-id/ai-builders-design-system` dihapus dari README karena HTTP 404 untuk publik.
 - 2026-10-26: compactio dipasang lewat `claude plugin`, bukan `npx`. Perintah di README mengikuti README compactio.
 - 2026-10-26: cek URL: 99 URL, hanya npmjs.com (403) dan LinkedIn (999) gagal karena blokir bot. Paket npm dicek lewat `npm view`.
+- 2026-10-26: 6 repo di-pin lewat dialog "Customize your pins". Tombol Save aktif setelah satu checkbox diklik ulang.
+- 2026-10-26: urutan pin diatur lewat tombol "Move up/down" (keyboard). Drag gagal karena pane browser tersembunyi.
