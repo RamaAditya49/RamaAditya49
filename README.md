@@ -4,91 +4,117 @@
 
 # Rama Aditya
 
-**AI Agent Infrastructure · Attribution Engineering · Open Source**
+**AI builder & trainer · agent infrastructure · open source**
 
-Fullstack engineer & digital marketing consultant — Bali, Indonesia.
-I build agent runtimes, attribution infrastructure, and the systems that keep ad budgets honest.
+I build open-source tools that let AI coding agents run, remember, and take work from chat.<br/>
+I also build attribution systems that connect ad spend to closed deals.
+
+Software for 170+ businesses since 2013 · AI training for 700+ students · Bali, Indonesia
 
 [![Website](https://img.shields.io/badge/ramadigital.id-111?style=for-the-badge&logo=googlechrome&logoColor=4CAF50)](https://ramadigital.id)
 [![Email](https://img.shields.io/badge/halo@ramadigital.id-111?style=for-the-badge&logo=gmail&logoColor=EA4335)](mailto:halo@ramadigital.id)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-111?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://www.linkedin.com/in/ramaaditya49)
-[![WhatsApp](https://img.shields.io/badge/Konsultasi%20Gratis-111?style=for-the-badge&logo=whatsapp&logoColor=25D366)](https://api.whatsapp.com/send?phone=6285803327994&text=Assalamu'alaikum%20Pak%20Rama,%20saya%20tertarik%20untuk%20konsultasi%20gratis)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-111?style=for-the-badge&logo=whatsapp&logoColor=25D366)](https://api.whatsapp.com/send?phone=6285803327994&text=Hi%20Rama%2C%20I%20found%20you%20on%20GitHub.)
 
-**17,349** contributions · **46** public repos · **196**★ · **7** organizations — *last 12 months*
-
-[![titen-memory on npm](https://img.shields.io/npm/dm/titen-memory?style=flat-square&label=titen-memory&color=4CAF50&labelColor=111&logo=npm&logoColor=CB3837)](https://www.npmjs.com/package/titen-memory)
-[![caraka on npm](https://img.shields.io/npm/dm/caraka?style=flat-square&label=caraka&color=4CAF50&labelColor=111&logo=npm&logoColor=CB3837)](https://www.npmjs.com/package/caraka)
+[![titen-memory](https://img.shields.io/npm/dm/titen-memory?style=flat-square&label=titen-memory&color=4CAF50&labelColor=111&logo=npm&logoColor=CB3837)](https://www.npmjs.com/package/titen-memory)
+[![caraka](https://img.shields.io/npm/dm/caraka?style=flat-square&label=caraka&color=4CAF50&labelColor=111&logo=npm&logoColor=CB3837)](https://www.npmjs.com/package/caraka)
+[![compactio](https://img.shields.io/npm/dm/compactio?style=flat-square&label=compactio&color=4CAF50&labelColor=111&logo=npm&logoColor=CB3837)](https://www.npmjs.com/package/compactio)
+[![cloudflare-bulk-delete](https://img.shields.io/npm/dm/cloudflare-bulk-delete?style=flat-square&label=cloudflare-bulk-delete&color=4CAF50&labelColor=111&logo=npm&logoColor=CB3837)](https://www.npmjs.com/package/cloudflare-bulk-delete)
+[![@growthcircle/cadis](https://img.shields.io/npm/dm/@growthcircle/cadis?style=flat-square&label=cadis&color=4CAF50&labelColor=111&logo=npm&logoColor=CB3837)](https://www.npmjs.com/package/@growthcircle/cadis)
 
 </div>
 
 ---
 
-## Open Source · Sumber Terbuka
+## The agent stack
 
-### Live on npm
-
-<a href="https://github.com/RamaAditya49/titen"><img src="https://raw.githubusercontent.com/RamaAditya49/titen/main/docs/assets/readme/titen-hero.svg" width="100%" alt="Titen — self-hosted agent memory with no API key and no LLM"/></a>
-
-#### [Titen](https://github.com/RamaAditya49/titen) — agent memory with no API key, no LLM, no embedding provider
-
-[![npm](https://img.shields.io/npm/v/titen-memory?style=flat-square&label=npm&color=4CAF50&labelColor=111)](https://www.npmjs.com/package/titen-memory)
-[![downloads](https://img.shields.io/npm/dm/titen-memory?style=flat-square&label=downloads&color=4CAF50&labelColor=111)](https://www.npmjs.com/package/titen-memory)
-[![stars](https://img.shields.io/github/stars/RamaAditya49/titen?style=flat-square&label=%E2%98%85&color=4CAF50&labelColor=111)](https://github.com/RamaAditya49/titen)
-[![license](https://img.shields.io/badge/Apache--2.0-111?style=flat-square)](https://github.com/RamaAditya49/titen/blob/main/LICENSE)
-
-One command and it serves MCP over stdio against a local SQLite store — a drop-in for the MCP reference memory server, or Cloudflare Workers + D1 when it needs to be shared. Every memory keeps its source, who may read it, and the evidence that contradicts it.
-
-```
-npx titen-memory mcp
-```
-
-<a href="https://github.com/RamaAditya49/titen#what-is-different-about-it"><img src="https://raw.githubusercontent.com/RamaAditya49/titen/main/docs/assets/readme/titen-flow.svg" width="100%" alt="The kernel loop: observe, consolidate, compile, evidence — under one authorization and evidence boundary"/></a>
-
-`TypeScript` `Bun` `SQLite` `D1` `MCP` — [titen.dev](https://titen.dev)
-
-<br/>
-
-<a href="https://github.com/CarakaDev/caraka"><img src="https://raw.githubusercontent.com/CarakaDev/caraka/main/assets/banner.svg" width="100%" alt="Caraka — send the task, Caraka runs it"/></a>
-
-#### [Caraka](https://github.com/CarakaDev/caraka) — send the task, Caraka runs it
-
-[![npm](https://img.shields.io/npm/v/caraka?style=flat-square&label=npm&color=4CAF50&labelColor=111)](https://www.npmjs.com/package/caraka)
-[![downloads](https://img.shields.io/npm/dm/caraka?style=flat-square&label=downloads&color=4CAF50&labelColor=111)](https://www.npmjs.com/package/caraka)
-[![stars](https://img.shields.io/github/stars/CarakaDev/caraka?style=flat-square&label=%E2%98%85&color=4CAF50&labelColor=111)](https://github.com/CarakaDev/caraka)
-[![license](https://img.shields.io/badge/MIT-111?style=flat-square)](https://github.com/CarakaDev/caraka/blob/main/LICENSE)
-
-A thin bridge from Telegram, Discord, or WhatsApp to the coding agent already installed on your machine. No agent loop, no tools, no model provider, no plugin marketplace — your agent has better versions of all four. Caraka adds only what chat needs: identity, sessions, approvals, and audit.
-
-```
-npx caraka init
-```
-
-<a href="https://github.com/CarakaDev/caraka#what-it-is"><img src="https://raw.githubusercontent.com/CarakaDev/caraka/main/assets/flow.svg" width="100%" alt="Telegram topics to Caraka to your coding agent"/></a>
-
-`ACP` `Node 22` `Telegram` `Discord` `WhatsApp` — [caraka.dev](https://caraka.dev)
-
-### Projects
+Four local-first pieces. Use one, or put them together.
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-<a href="https://github.com/Growth-Circle/cadis"><img src="https://cadis.digital/hud.webp" alt="C.A.D.I.S. desktop HUD"/></a>
+<a href="https://github.com/Growth-Circle/cadis"><img src="https://cadis.digital/hud.webp" alt="CADIS desktop HUD with 14 agents around a central orb"/></a>
 
-### [C.A.D.I.S.](https://github.com/Growth-Circle/cadis) ![](https://img.shields.io/github/stars/Growth-Circle/cadis?style=flat-square&label=&color=4CAF50&labelColor=111)
+### [C.A.D.I.S.](https://github.com/Growth-Circle/cadis) ![stars](https://img.shields.io/github/stars/Growth-Circle/cadis?style=flat-square&label=%E2%98%85&color=4CAF50&labelColor=111)
 
-Rust-first, local-first **multi-agent runtime**. Desktop HUD, policy-gated tools, voice I/O, and worktree-isolated coding agents.
+**Run** — a multi-agent runtime in Rust. Desktop HUD, policy-gated tools, voice in and out, and coding agents that each work in their own git worktree.
 
 `Rust` `Tauri` `React` — [cadis.digital](https://cadis.digital)
 
 </td>
 <td width="50%" valign="top">
 
+<a href="https://github.com/RamaAditya49/titen"><img src="https://raw.githubusercontent.com/RamaAditya49/titen/main/docs/assets/readme/titen-hero.svg" alt="Titen: self-hosted agent memory with no API key and no LLM"/></a>
+
+### [Titen](https://github.com/RamaAditya49/titen) ![stars](https://img.shields.io/github/stars/RamaAditya49/titen?style=flat-square&label=%E2%98%85&color=4CAF50&labelColor=111)
+
+**Remember** — agent memory with no API key, no LLM, and no embedding provider. Serves MCP over SQLite, or Cloudflare Workers + D1 for a team. Each memory keeps its source, its readers, and the evidence against it.
+
+```
+npx titen-memory mcp
+```
+
+`TypeScript` `Bun` `SQLite` `MCP` — [titen.dev](https://titen.dev)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://github.com/CarakaDev/caraka"><img src="https://raw.githubusercontent.com/CarakaDev/caraka/main/assets/banner.svg" alt="Caraka: send the task, Caraka runs it"/></a>
+
+### [Caraka](https://github.com/CarakaDev/caraka) ![stars](https://img.shields.io/github/stars/CarakaDev/caraka?style=flat-square&label=%E2%98%85&color=4CAF50&labelColor=111)
+
+**Reach** — send a task from Telegram, Discord, or WhatsApp to the coding agent on your machine. Caraka adds only what chat needs: identity, sessions, approvals, and audit.
+
+```
+npx caraka init
+```
+
+`ACP` `Node 22` — [caraka.dev](https://caraka.dev)
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://github.com/RamaAditya49/compactio"><img src="https://raw.githubusercontent.com/RamaAditya49/compactio/main/assets/hero.svg" alt="compactio: System 1 for your coding agent"/></a>
+
+### [compactio](https://github.com/RamaAditya49/compactio) ![stars](https://img.shields.io/github/stars/RamaAditya49/compactio?style=flat-square&label=%E2%98%85&color=4CAF50&labelColor=111)
+
+**Save** — a System 1 for your coding agent. A fast decision model cuts test logs, build logs, and search results before the expensive model reads them. One real test log: 20,501 → 747 characters.
+
+```
+claude plugin marketplace add RamaAditya49/compactio
+```
+
+`TypeScript` `Claude Code plugin` · zero dependencies
+
+</td>
+</tr>
+</table>
+
+## Tools
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://github.com/RamaAditya49/cadiswave"><img src="https://raw.githubusercontent.com/RamaAditya49/cadiswave/main/docs/images/device-en.png" alt="CadisWave device page with gain dial, input meter, and headphone level"/></a>
+
+### [CadisWave](https://github.com/RamaAditya49/cadiswave) ![stars](https://img.shields.io/github/stars/RamaAditya49/cadiswave?style=flat-square&label=%E2%98%85&color=4CAF50&labelColor=111)
+
+Elgato Wave XLR software for Linux. Mic gain, mute, phantom power, headphones, and a PipeWire mixer. Continues [OpenWave](https://github.com/rikkichy/openwave).
+
+`Rust` `GTK4` `libadwaita` `PipeWire`
+
+</td>
+<td width="50%" valign="top">
+
 <a href="https://github.com/RamaAditya49/peta-pixel-nusantara"><img src="https://raw.githubusercontent.com/RamaAditya49/peta-pixel-nusantara/main/assets/preview.png" alt="Pixel map of Indonesia"/></a>
 
-### [peta-pixel-nusantara](https://github.com/RamaAditya49/peta-pixel-nusantara) ![](https://img.shields.io/github/stars/RamaAditya49/peta-pixel-nusantara?style=flat-square&label=&color=4CAF50&labelColor=111)
+### [peta-pixel-nusantara](https://github.com/RamaAditya49/peta-pixel-nusantara) ![stars](https://img.shields.io/github/stars/RamaAditya49/peta-pixel-nusantara?style=flat-square&label=%E2%98%85&color=4CAF50&labelColor=111)
 
-8-bit **pixel map of Indonesia** — 38 provinces and 519 ADM2 regions on an interactive canvas grid.
+An 8-bit pixel map of Indonesia: 38 provinces and 514 regencies and cities on a zoomable canvas grid. Open data, no build step.
 
 `Canvas` `TopoJSON` `geoBoundaries`
 
@@ -97,189 +123,122 @@ Rust-first, local-first **multi-agent runtime**. Desktop HUD, policy-gated tools
 <tr>
 <td width="50%" valign="top">
 
-### [tutur](https://github.com/RamaAditya49/tutur) ![](https://img.shields.io/github/stars/RamaAditya49/tutur?style=flat-square&label=&color=4CAF50&labelColor=111)
+### [cloudflare-bulk-delete](https://github.com/RamaAditya49/cloudflare-bulk-delete) ![stars](https://img.shields.io/github/stars/RamaAditya49/cloudflare-bulk-delete?style=flat-square&label=%E2%98%85&color=4CAF50&labelColor=111)
 
-Indonesian writing skill for AI agents — natural, human, register-aware text. Stops LLM output from reading like a translation.
+Fixes the Cloudflare error *"Your project has too many deployments to be deleted"*. Deletes old Pages and Workers deployments and keeps production.
+
+```
+npx cloudflare-bulk-delete interactive
+```
 
 </td>
 <td width="50%" valign="top">
 
-### [cloudflare-bulk-delete](https://github.com/RamaAditya49/cloudflare-bulk-delete) ![](https://img.shields.io/github/stars/RamaAditya49/cloudflare-bulk-delete?style=flat-square&label=&color=4CAF50&labelColor=111)
+### [kill-node-process](https://marketplace.visualstudio.com/items?itemName=RamaDigital.kill-node-process)
 
-Bulk-deletes Cloudflare Pages & Workers deployments. Fixes *"too many deployments to be deleted"* in minutes instead of hours.
+A VS Code extension. Find and stop Node.js processes from the status bar on Windows, Linux, and macOS.
 
 </td>
 </tr>
 </table>
 
-**Agent infrastructure** — [growcli](https://github.com/Growth-Circle/growcli) · [ai-agentic](https://github.com/RamaAditya49/ai-agentic) · [gc-provider](https://github.com/Growth-Circle/gc-provider) · [coret-agent-kit](https://github.com/Rama-Digital/coret-agent-kit) · [openclaw-auth-wiper](https://github.com/Growth-Circle/openclaw-auth-wiper)
+**Agent skills** — [rama-marketing](https://github.com/RamaAditya49/rama-marketing) *(Meta, Google, TikTok, and LinkedIn Ads)* · [rama-copywriting](https://github.com/RamaAditya49/rama-copywriting) · [rama-cs](https://github.com/RamaAditya49/rama-cs) *(customer service)* · [seng-jelas](https://github.com/RamaAditya49/seng-jelas) *(finds the patterns that make text read as AI slop)* · [tutur](https://github.com/RamaAditya49/tutur) and [bahasa-jelas-terkendali](https://github.com/RamaAditya49/bahasa-jelas-terkendali) *(natural Indonesian for LLMs)*
 
-**Agent skills** — [rama-marketing](https://github.com/RamaAditya49/rama-marketing) · [rama-copywriting](https://github.com/RamaAditya49/rama-copywriting) · [rama-cs](https://github.com/RamaAditya49/rama-cs) · [bahasa-jelas-terkendali](https://github.com/RamaAditya49/bahasa-jelas-terkendali) *(Indonesian copy that is clear, specific, and evidence-based)* · [seng-jelas](https://github.com/RamaAditya49/seng-jelas)
+**MCP servers and plugins** — [coret-agent-kit](https://github.com/Rama-Digital/coret-agent-kit) · [biver-mcp](https://github.com/biver-colony/biver-mcp) · [grupy-mcp](https://github.com/ai-builders-id/grupy-mcp) · [konektor-plugin](https://github.com/Growth-Circle/konektor-plugin) · [gc-provider](https://github.com/Growth-Circle/gc-provider) · [openclaw-auth-wiper](https://github.com/Growth-Circle/openclaw-auth-wiper) · [utus](https://github.com/ai-builders-id/utus) · [ai-agentic](https://github.com/RamaAditya49/ai-agentic)
 
-**Team workspaces** — [grow-team](https://github.com/Growth-Circle/grow-team) *(Zulip-based chat for the Growth Circle team)* · [RD-Team](https://github.com/Rama-Digital/RD-Team) *(humans and agents in one workspace, on a relay you own)*
+**Volara SDKs** — one omnichannel chat API: [TypeScript](https://github.com/volara-asia/volara-js) · [Python](https://github.com/volara-asia/volara-python) · [PHP](https://github.com/volara-asia/volara-php) · [Ruby](https://github.com/volara-asia/volara-ruby) · [Go](https://github.com/volara-asia/volara-go) · [WordPress](https://github.com/volara-asia/volara-wordpress) · [n8n](https://github.com/volara-asia/volara-n8n) · [MCP](https://github.com/volara-asia/volara-mcp) · [widget](https://github.com/volara-asia/volara-widget)
 
-**Developer tools** — [kill-node-process](https://marketplace.visualstudio.com/items?itemName=RamaDigital.kill-node-process) *(VS Code, cross-platform)*
+**Prompt collections** — [prd-prompt-collection](https://github.com/ai-builders-id/prd-prompt-collection) · [mdown-collection](https://github.com/ai-builders-id/mdown-collection)
 
-**Volara SDK suite** — omnichannel chat API in six languages: [TypeScript](https://github.com/volara-asia/volara-js) · [Python](https://github.com/volara-asia/volara-python) · [PHP](https://github.com/volara-asia/volara-php) · [Ruby](https://github.com/volara-asia/volara-ruby) · [Go](https://github.com/volara-asia/volara-go) · [WordPress](https://github.com/volara-asia/volara-wordpress) · [n8n](https://github.com/volara-asia/volara-n8n) · [MCP](https://github.com/volara-asia/volara-mcp) · [widget](https://github.com/volara-asia/volara-widget)
-
-**AI Builders ID** — [ai-builders-design-system](https://github.com/ai-builders-id/ai-builders-design-system) · [utus](https://github.com/ai-builders-id/utus) · [mdown-collection](https://github.com/ai-builders-id/mdown-collection) · [prd-prompt-collection](https://github.com/ai-builders-id/prd-prompt-collection)
-
-**Contributor** — [openwave](https://github.com/rikkichy/openwave) *(Elgato Wave XLR for Linux)*
+**Forks I maintain** — [growcli](https://github.com/Growth-Circle/growcli) *(OpenAI Codex CLI)* · [grow-team](https://github.com/Growth-Circle/grow-team) *(Zulip)* · [take-my-computer](https://github.com/RamaAditya49/take-my-computer) *(computer use on Linux over MCP)*
 
 ---
 
-## Products · Produk
+## Products
+
+<details>
+<summary><b>10 live products</b>, mostly for Indonesian businesses</summary>
+
+<br/>
 
 | | Status | |
 |---|:---:|---|
-| [**C.A.D.I.S.**](https://cadis.digital) | Live | Local-first multi-agent runtime for developers. Open source. |
-| [**Konektor**](https://konektor.id) | Live | Attribution bridge — ad click → landing page → WhatsApp → closing, fed back to Google & Meta Ads. |
-| [**Coret**](https://coret.id) | Live | Mindmap & visual-thinking platform with a public API — maps, nodes, sketch, share links. |
-| [**Biver**](https://biver.id) | Live | AI landing-page builder for Indonesian SMEs. No-code. |
-| [**Volara**](https://volara.id) | Live | Omnichannel chat API with a full polyglot SDK suite. *Co-built.* |
-| [**Termilo**](https://termilo.com) | Live | Booking infrastructure for service businesses, agencies, and SaaS teams. |
-| [**Titen**](https://titen.dev) | Live | Collaborative memory fabric for AI agents. Open source, on npm as `titen-memory`. |
-| [**Caraka**](https://caraka.dev) | Live | Chat-to-coding-agent bridge over ACP. Open source, on npm as `caraka`. |
-| [**Nayaka**](https://nayaka.studio) | Live | One brief in, a finished ad video out in three minutes — script, Indonesian voice, SFX, music, captions, four ratios. Runs on the user's machine. |
-| [**Nucifra**](https://nucifra.com) | Live | Turns a file your agent made into a temporary public URL with the right Content-Type. Video up to 4 GB. |
-| [**Hermes Trading**](https://hermestrading.id) | Live | AI live trading agent on Tokocrypto. Every decision and trade carries a public proof hash. |
-| [**sanji.space**](https://sanji.space) | Early access | Work chat for teams and AI agents — agents split tasks, read Google Drive, and report back in one room. |
+| [**Konektor**](https://konektor.id) | Live | Attribution from ad click to landing page to WhatsApp to closed deal, sent back to Google Ads and Meta Ads. |
+| [**Coret**](https://coret.id) | Live | Mind maps and visual thinking with a public API: maps, nodes, sketches, and share links. |
+| [**Biver**](https://biver.id) | Live | AI landing-page builder for small businesses. No code. |
+| [**Volara**](https://volara.id) | Live | Omnichannel chat API with SDKs in six languages. *Co-built.* |
+| [**Termilo**](https://termilo.com) | Live | Booking for service businesses, agencies, and SaaS teams. |
+| [**Nayaka**](https://nayaka.studio) | Live | One brief in, a finished ad video out: script, Indonesian voice, SFX, music, captions, four ratios. Runs on your machine. |
+| [**Nucifra**](https://nucifra.com) | Live | Gives a file your agent made a temporary public URL with the correct Content-Type. Video up to 4 GB. |
+| [**Hermes Trading**](https://hermestrading.id) | Live | AI trading agent on Tokocrypto. Every decision and trade has a public proof hash. |
+| [**sanji.space**](https://sanji.space) | Early access | Work chat for teams and AI agents in one room. |
 | [**ongkir.online**](https://ongkir.online) | Live | Indonesian shipping-rate lookup. |
 
----
+</details>
 
-## Selected Work · Proyek Pilihan
+## Client work
 
-**Growth Circle** — internal operations suite: Meta Ads manager, webinar system, WhatsApp gateway, mail system, URL shortener, LiteLLM gateway, a shared memory service on Workers + D1 + Vectorize, and a multi-tenant managed agent hosting platform.
+<details>
+<summary><b>5 public clients, 10 under NDA, 2 internal platforms</b></summary>
 
-**Rama Digital** — internal platform: ads manager, SEO research gateway, WhatsApp gateway, ads reporting server, scheduling agent, and ERP automation. Plus two video engines: `motion-engine` (design composition → MP4 with voice-over, SFX, and music) and `stick-animations` (vertical stick-figure films drawn as pure SVG — no video model, no AI images).
+<br/>
 
-**Client work** — [Waffles](https://waffles.id) *(AI conversion assistant for websites — Cloudflare-native: Astro edge worker, private Hono API over service bindings, multi-D1 Drizzle, RAG ingestion, Durable Object quotas)* · Provaliant *(guided campaign workspace for agencies — campaign board, staged workflow, AI video generation pipeline)* · [KotakFoto.id](https://kotakfoto.id) *(storefront + organic social auto-poster)* · [Birojodoh Rumaysho](https://birojodoh.rumaysho.com) *(ta'aruf platform, maintained since 2025)* · [AI Club Indonesia](https://aiclub.id) *(community platform, Telegram ops bot, automated video generator)*
+**Public**
 
-**Under NDA** — named clients withheld; the shape of the work:
+- [Waffles](https://waffles.id) — AI conversion assistant for websites. Astro edge worker, private Hono API over service bindings, Drizzle on several D1 databases, RAG ingestion, Durable Object quotas.
+- Provaliant — campaign workspace for agencies: campaign board, staged workflow, AI video pipeline.
+- [KotakFoto.id](https://kotakfoto.id) — storefront and organic social auto-poster.
+- [Birojodoh Rumaysho](https://birojodoh.rumaysho.com) — ta'aruf (marriage introduction) platform, maintained since 2025.
+- [AI Club Indonesia](https://aiclub.id) — community platform, Telegram ops bot, and automated video generator.
 
-- Growth OS for a Hajj & Umrah travel operator — pilgrimage package catalog, lead capture routed to the nearest branch, and per-region dynamic landing pages generated from a geo-to-branch mapping. Bun · Astro · Hono · Drizzle · Postgres.
-- Settlement reconciliation for a multi-outlet F&B group — matches incoming payments against ShopeeFood, GoFood, GoPay, and GrabFood merchant settlements via an IMAP ingestion worker.
-- Delivery operations platform for a software agency — a monorepo carrying every paid engagement from blueprint through data model, integrations, API contract, and QA acceptance, behind a production operations dashboard.
-- Multi-tenant online course platform — public, member, and tenant-admin surfaces, payment callbacks, and a service-token integration into the delivery platform above.
-- Software licensing & telemetry server for a distributed desktop product.
+**Under NDA** (no names, only the shape of the work)
+
+- Growth OS for a Hajj and Umrah travel operator: package catalog, leads routed to the nearest branch, and landing pages per region. Bun, Astro, Hono, Drizzle, Postgres.
+- Settlement reconciliation for a multi-outlet F&B group: matches incoming payments against ShopeeFood, GoFood, GoPay, and GrabFood settlements from email.
+- Delivery operations platform for a software agency: every paid engagement from blueprint to QA acceptance, with a production dashboard.
+- Multi-tenant online course platform with payment callbacks and a service-token link to the platform above.
+- Licensing and telemetry server for a desktop product.
 - ERP for a manufacturing group.
-- Attribution and lead-source tracking for a permit & licensing consultancy.
-- Operations ERP for a health-supplement brand — inventory, stock aging, and order ingestion straight from TikTok Shop, Shopee, and Lazada APIs.
-- Agentic CRM for an industrial bearings distributor — answers customers on WhatsApp and Telegram, reads stock and prices from the accounting system, and drafts sales orders and invoices.
-- Clinic marketplace and professional LMS for an optometry ecosystem — location-aware booking, course marketplace, and a practice console.
+- Attribution and lead-source tracking for a permit and licensing consultancy.
+- Operations ERP for a health-supplement brand: inventory, stock aging, and orders from the TikTok Shop, Shopee, and Lazada APIs.
+- Agentic CRM for an industrial bearings distributor: answers customers on WhatsApp and Telegram, reads stock from the accounting system, and drafts sales orders.
+- Clinic marketplace and professional LMS for an optometry network.
 
----
+**Internal platforms**
+
+- Growth Circle: Meta Ads manager, webinar system, WhatsApp gateway, mail system, LiteLLM gateway, shared agent memory on Workers + D1 + Vectorize, and managed agent hosting.
+- Rama Digital: ads reporting, SEO research gateway, ERP automation, and two video engines. `motion-engine` turns a design into an MP4 with voice, SFX, and music. `stick-animations` draws stick-figure films as pure SVG, with no video model.
+
+</details>
+
+## Results
+
+I sell attribution, so I measure my own site the same way. **9 of 15 service pages on ramadigital.id rank on Google page 1.** The search `jasa install openclaw` ranks at position 1.1 with a 39% CTR.
+
+<details>
+<summary><b>9 service pages on page 1</b> (Google Search Console, 23 Jun – 22 Sep 2026)</summary>
+
+<br/>
+
+| Service page (Indonesian) | Avg. position |
+|---|:---:|
+| [AI SEO and GEO training](https://ramadigital.id/services/pelatihan-ai-seo-geo) | **3.7** |
+| [Hermes Agent install](https://ramadigital.id/services/jasa-install-hermes-agent) | **5.1** |
+| [Agentic AI training for schools and universities](https://ramadigital.id/services/pelatihan-ai-agentic) | **6.0** |
+| [AI training for company teams](https://ramadigital.id/services/pelatihan-ai-perusahaan) | **6.7** |
+| [OpenClaw install](https://ramadigital.id/services/jasa-install-openclaw) | **6.8** |
+| [Local AI server for companies](https://ramadigital.id/services/local-ai-server-perusahaan) | **6.9** |
+| [Web application development](https://ramadigital.id/services/web-application-development) | **7.5** |
+| [Meta Ads system with AI](https://ramadigital.id/services/openclaw-meta-ads-operating-system) | **8.1** |
+| [QwenPaw install](https://ramadigital.id/services/jasa-install-qwenpaw) | **8.4** |
+
+After the home page, the most organic traffic comes from the agent install guides for [Windows](https://ramadigital.id/blog/cara-install-hermes-agent-di-windows), [Linux](https://ramadigital.id/blog/cara-install-hermes-agent-di-linux), and [macOS](https://ramadigital.id/blog/cara-install-hermes-agent-di-macos).
+
+</details>
 
 ## Stack
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=rust,go,ts,js,py,php,vue,nuxtjs,react,nextjs,astro,svelte,tailwind&theme=dark" /><br/>
-  <img src="https://skillicons.dev/icons?i=nodejs,nestjs,bun,laravel,postgres,mongodb,redis,docker,cloudflare,tauri,linux,git&theme=dark" />
-</div>
-
----
-
-## SEO Results · Hasil SEO
-
-Saya menjual jasa attribution, jadi wajar kalau situs saya sendiri diukur dengan cara yang sama. Dalam 3 bulan terakhir, **9 dari 15 halaman layanan `ramadigital.id` ada di halaman 1 Google.**
-
-| Halaman layanan | Posisi Google |
-|---|:---:|
-| [Pelatihan AI SEO & GEO](https://ramadigital.id/services/pelatihan-ai-seo-geo) | **3,7** |
-| [Jasa Install Hermes Agent](https://ramadigital.id/services/jasa-install-hermes-agent) | **5,1** |
-| [Pelatihan AI Agentic Sekolah & Kampus](https://ramadigital.id/services/pelatihan-ai-agentic) | **6,0** |
-| [Pelatihan AI Tim Perusahaan](https://ramadigital.id/services/pelatihan-ai-perusahaan) | **6,7** |
-| [Jasa Install OpenClaw](https://ramadigital.id/services/jasa-install-openclaw) | **6,8** |
-| [Local AI Server untuk Perusahaan](https://ramadigital.id/services/local-ai-server-perusahaan) | **6,9** |
-| [Web Application Development](https://ramadigital.id/services/web-application-development) | **7,5** |
-| [Setup Sistem Meta Ads dengan AI](https://ramadigital.id/services/openclaw-meta-ads-operating-system) | **8,1** |
-| [Jasa Install QwenPaw](https://ramadigital.id/services/jasa-install-qwenpaw) | **8,4** |
-
-Untuk keyword-nya sendiri, **`jasa install openclaw` ada di posisi 1,1** dengan CTR 39%. Penyumbang trafik organik terbesar setelah beranda adalah panduan instalasi agent: [Windows](https://ramadigital.id/blog/cara-install-hermes-agent-di-windows), [Linux](https://ramadigital.id/blog/cara-install-hermes-agent-di-linux), dan [macOS](https://ramadigital.id/blog/cara-install-hermes-agent-di-macos).
-
-Dibanding 3 bulan yang sama tahun lalu: klik **61 → 2,16 rb** (35×), impresi **1,47 rb → 183 rb** (124×), posisi rata-rata **27 → 8,9**. Total 12 bulan: **4,75 rb klik** dari **287 rb impresi**.
-
-<sub>Diambil dari Search Console (`sc-domain:ramadigital.id`, pencarian web, 23 Jun – 22 Sep 2026). Tabel memuat halaman layanan dengan minimal 30 impresi, agar posisinya bermakna.</sub>
-
----
-
-## Layanan
-
-Saya membantu business owner yang iklannya boncos — budget habis tapi closing minim. Dari pengalaman, sebagian besar masalahnya bukan di creative atau targeting, tapi di **tracking yang berantakan**. Ketika tracking rusak, algoritma Meta & Google tidak bisa belajar, dan budget terbuang ke audience yang salah. Pendekatan saya: perbaiki tracking dulu, baru optimasi strategi.
-
-**Mulai dari cek masalah**
-
-| Layanan | | Harga |
-|---|---|---|
-| [AI Diagnostic](https://ramadigital.id/services/ai-diagnostic) | Sesi 60–90 menit: peta titik macet dan peluang AI | **Rp 1,5 jt** |
-| [Jasa Audit SEO & Visibilitas AI](https://ramadigital.id/services/jasa-audit-seo) | Cari sebab situsmu hilang dari Google dan jawaban AI | **mulai Rp 2,52 jt** |
-| [Data Health Audit](https://ramadigital.id/services/data-health-audit) | Audit GA4, Pixel, CAPI, UTM — temukan data yang bocor | **Rp 5 jt** |
-| [AI Workflow Audit](https://ramadigital.id/services/ai-workflow-audit) | Pilih pekerjaan rutin yang layak dibantu AI | **Rp 6 jt** |
-| [Vibe Code Rescue](https://ramadigital.id/services/vibe-code-rescue) | Rapikan aplikasi hasil AI yang mulai rusak | **audit Rp 7,5 jt** |
-| [AI Implementation Roadmap](https://ramadigital.id/services/ai-implementation-roadmap) | Rencana AI 30–90 hari yang bisa dijalankan | **Rp 15 jt** |
-
-**Iklan, tracking, dan growth**
-
-| Layanan | | Harga |
-|---|---|---|
-| [Attribution Bridge](https://ramadigital.id/services/attribution-bridge) | Iklan → landing page → WhatsApp → closing, dikirim balik ke platform | **mulai Rp 9 jt** |
-| [Jasa Pembuatan Landing Page](https://ramadigital.id/services/jasa-pembuatan-landing-page) | Satu halaman cepat yang siap menerima klik iklan | **Rp 4,9 jt** |
-| [Google Shopping Setup](https://ramadigital.id/services/google-shopping-setup) | Produk tampil di Shopping dengan data feed yang benar | **Rp 7,5 jt** |
-| [Digital Marketing Setup](https://ramadigital.id/services/digital-marketing-setup) | Marketing terukur sejak hari pertama | **Rp 12 jt** |
-| [Setup Sistem Meta Ads dengan AI](https://ramadigital.id/services/openclaw-meta-ads-operating-system) | Operasi Meta Ads dengan operator klien dan decision log | **mulai Rp 15 jt** |
-
-**Agent dan sistem**
-
-| Layanan | | Harga |
-|---|---|---|
-| [Jasa Pembuatan MCP Server](https://ramadigital.id/services/jasa-pembuatan-mcp) | Sambungkan sistem yang sudah ada ke AI agent | **mulai Rp 2,5 jt** |
-| [Jasa Install Hermes Agent](https://ramadigital.id/services/jasa-install-hermes-agent) | Hermes siap pakai: provider, gateway, memory, SOP | **Rp 6 jt** |
-| [AI Agent Ops Install](https://ramadigital.id/services/ai-agent-ops-install) | Agent terpasang dengan batas akses yang jelas | **Rp 7,5–25 jt** |
-| [OS Module: Content Ops](https://ramadigital.id/services/content-ops) | Konten terencana dengan review manusia | **mulai Rp 12 jt** |
-| [Jasa Pembuatan E-commerce](https://ramadigital.id/services/jasa-pembuatan-e-commerce) | Channel jualan dan data customer milik sendiri | **Rp 18 jt** |
-| [OS Module: CRM](https://ramadigital.id/services/openclaw-crm-operating-system) | CRM yang dijalankan agent di dalam Business OS | **mulai Rp 25 jt** |
-| [Web Application Development](https://ramadigital.id/services/web-application-development) | Aplikasi kustom yang mengikuti alur kerja bisnis | **mulai Rp 25 jt** |
-| [Local AI Server](https://ramadigital.id/services/local-ai-server-perusahaan) | LLM on-premise — data tidak keluar kantor | **mulai Rp 99 jt** |
-
-**Pelatihan**
-
-| Layanan | | Harga |
-|---|---|---|
-| [Pelatihan AI SEO & GEO](https://ramadigital.id/services/pelatihan-ai-seo-geo) | Alur kerja SEO dan AI Search yang terukur | **mulai Rp 7,5 jt** |
-| [Pelatihan AI Tim Perusahaan](https://ramadigital.id/services/pelatihan-ai-perusahaan) | Tim memakai AI dengan aturan yang jelas | **mulai Rp 9,8 jt** |
-| [Kokpit Iklan AI](https://ramadigital.id/services/pelatihan-digital-marketing-ai) | Tim marketing membaca data iklan bersama Claude | **Rp 12,5 jt** |
-| [Pelatihan AI Agentic Sekolah & Kampus](https://ramadigital.id/services/pelatihan-ai-agentic) | Guru dan siswa membuat agent untuk tugas nyata — SD, SMP, SMA/SMK, universitas | **mulai Rp 3,9 jt** |
-| [Private AI Software Engineering Apprenticeship](https://ramadigital.id/services/private-ai-software-engineering-apprenticeship) | Bangun satu aplikasi nyata sampai deploy, didampingi | **Rp 50 jt** |
-
-**Bulanan** — [Optimasi Google Maps](https://ramadigital.id/services/jasa-optimasi-google-maps) **mulai Rp 490 rb/bln** · [SEO Bulanan & Visibilitas AI](https://ramadigital.id/services/jasa-seo-bulanan) **mulai Rp 1,08 jt/bln** · [Meta Ads Performance Management](https://ramadigital.id/services/meta-ads-managed) **mulai Rp 2 jt/bln** · [OS Care Retainer](https://ramadigital.id/services/os-care-retainer) **Rp 6–25 jt/bln**
-
-<sub>Harga per 25 Sep 2026, dalam Rupiah. Daftar lengkap dan cakupan tiap layanan di **[ramadigital.id/services](https://ramadigital.id/services)**.</sub>
-
-Konsultasi diagnostik 30–45 menit **gratis**, tanpa komitmen — [hubungi via WhatsApp](https://api.whatsapp.com/send?phone=6285803327994&text=Assalamu'alaikum%20Pak%20Rama,%20saya%20tertarik%20untuk%20konsultasi%20gratis).
-
----
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=RamaAditya49&theme=github_dark"/>
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=RamaAditya49&theme=github"/>
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=RamaAditya49&theme=github_dark"/>
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=RamaAditya49&theme=github"/>
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=RamaAditya49&theme=github-compact&hide_border=true&custom_title=Contribution%20Activity"/>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=RamaAditya49&theme=minimal&bg_color=ffffff&color=333333&line=4CAF50&point=FF6B6B&area=true&area_color=4CAF50&hide_border=true&custom_title=Contribution%20Activity"/>
-</picture>
-
-<em>"Sebaik-baik manusia adalah yang paling bermanfaat bagi manusia."</em> — HR. Ahmad
-
-Jazakallahu khairan sudah mampir. Semoga bermanfaat.
-
-<sub>© 2026 Rama Digital — Indonesia</sub>
-
+  <img src="https://skillicons.dev/icons?i=rust,go,ts,js,py,php,vue,nuxtjs,react,nextjs,astro,svelte,tailwind&theme=dark" alt="Languages and frameworks: Rust, Go, TypeScript, JavaScript, Python, PHP, Vue, Nuxt, React, Next.js, Astro, Svelte, Tailwind"/><br/>
+  <img src="https://skillicons.dev/icons?i=nodejs,nestjs,bun,laravel,postgres,mongodb,redis,docker,cloudflare,tauri,linux,git&theme=dark" alt="Runtime and infrastructure: Node.js, NestJS, Bun, Laravel, Postgres, MongoDB, Redis, Docker, Cloudflare, Tauri, Linux, Git"/>
 </div>
