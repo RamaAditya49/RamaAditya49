@@ -26,6 +26,8 @@ updated: 2026-11-12
 | FR-006 | State-driven | While the GitHub theme is light, the profile README shall show the marker file of each drawing. | implemented | 20261111-profile-identity |
 | FR-007 | Event-driven | When the header image loads, the header drawing shall play one time and then stay complete. | implemented | 20261111-profile-identity |
 | FR-008 | Ubiquitous | The profile README shall list three current services below the introduction: managed marketing for small businesses, private coaching in search, and 1-on-1 mentoring. | implemented | 20261111-profile-identity |
+| FR-009 | Ubiquitous | The profile README shall show three role groups below the service list: Founder, Creator (open source), and Co-founder, each site as a link. | implemented | 20261112-founder-roles |
+| FR-010 | Ubiquitous | The profile README shall link to email and LinkedIn as contact channels and shall contain no WhatsApp chat link. | implemented | 20261112-founder-roles |
 
 ## Kebutuhan non-fungsional
 

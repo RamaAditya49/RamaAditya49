@@ -14,7 +14,22 @@ I also build attribution systems that connect ad spend to closed deals.
 - **Private coaching in search** — SEO, AIO/AEO, and GEO: ranking on Google and being cited in AI answers.
 - **1-on-1 mentoring** — private students, from engineering through go-to-market (GTM).
 
-[ramadigital.id](https://ramadigital.id) · [halo@ramadigital.id](mailto:halo@ramadigital.id) · [LinkedIn](https://www.linkedin.com/in/ramaaditya49) · [WhatsApp](https://api.whatsapp.com/send?phone=6285803327994&text=Hi%20Rama%2C%20I%20found%20you%20on%20GitHub.)
+<table>
+  <tr>
+    <td><b>Founder</b></td>
+    <td><a href="https://ramadigital.id">ramadigital.id</a>&nbsp;· <a href="https://tbr.ai.id">tbr.ai.id</a>&nbsp;· <a href="https://sanji.space">sanji.space</a>&nbsp;· <a href="https://mcgg.studio">mcgg.studio</a>&nbsp;· <a href="https://konektor.id">konektor.id</a>&nbsp;· <a href="https://coret.id">coret.id</a>&nbsp;· <a href="https://biver.id">biver.id</a>&nbsp;· <a href="https://nayaka.studio">nayaka.studio</a>&nbsp;· <a href="https://planogram.dev">planogram.dev</a>&nbsp;· <a href="https://semaya.chat">semaya.chat</a></td>
+  </tr>
+  <tr>
+    <td><b>Creator</b><br/><sub>open&nbsp;source</sub></td>
+    <td><a href="https://titen.dev">titen.dev</a>&nbsp;· <a href="https://caraka.dev">caraka.dev</a>&nbsp;· <a href="https://cadis.digital">cadis.digital</a></td>
+  </tr>
+  <tr>
+    <td><b>Co&#8209;founder</b></td>
+    <td><a href="https://aiclub.id">aiclub.id</a>&nbsp;· <a href="https://growthcircle.id">growthcircle.id</a>&nbsp;· <a href="https://termilo.id">termilo.id</a></td>
+  </tr>
+</table>
+
+[ramadigital.id](https://ramadigital.id) · [halo@ramadigital.id](mailto:halo@ramadigital.id) · [LinkedIn](https://www.linkedin.com/in/ramaaditya49)
 
 [![titen-memory](https://img.shields.io/npm/dm/titen-memory?style=flat-square&label=titen-memory&color=E8B04B&labelColor=111&logo=npm&logoColor=CB3837)](https://www.npmjs.com/package/titen-memory)
 [![caraka](https://img.shields.io/npm/dm/caraka?style=flat-square&label=caraka&color=E8B04B&labelColor=111&logo=npm&logoColor=CB3837)](https://www.npmjs.com/package/caraka)

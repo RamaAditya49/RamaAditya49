@@ -14,7 +14,7 @@ Perbarui dokumen yang terdampak di setiap pekerjaan. Lalu perbarui kolom "Diperb
 | [brd.md](brd.md) | Kebutuhan bisnis: tujuan, stakeholder, aturan bisnis, KPI | current | 2026-10-26 |
 | [prd.md](prd.md) | Kebutuhan produk: pengguna, masalah, fitur, prioritas | current | 2026-11-12 |
 | [frd.md](frd.md) | Kebutuhan fungsional dalam EARS, dengan ID FR tetap | current | 2026-11-12 |
-| [erd.md](erd.md) | Model data: entitas, field, relasi | current | 2026-10-26 |
+| [erd.md](erd.md) | Model data: entitas, field, relasi | current | 2026-11-12 |
 
 ## Dokumen lain
 

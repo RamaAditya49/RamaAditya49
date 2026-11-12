@@ -1,7 +1,7 @@
 ---
 type: erd
 status: current
-updated: 2026-10-26
+updated: 2026-11-12
 ---
 
 # ERD: RamaAditya49 (GitHub profile)
@@ -42,7 +42,7 @@ erDiagram
 
 ## Data pribadi dan retensi
 
-- README memuat email kerja dan nomor WhatsApp bisnis yang Rama pakai untuk publik. Tidak ada PII lain.
+- README memuat email kerja dan link LinkedIn yang Rama pakai untuk publik. Nomor WhatsApp dihapus pada 2026-11-12. Tidak ada PII lain.
 
 ## Pertanyaan terbuka
 
