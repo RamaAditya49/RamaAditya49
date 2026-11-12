@@ -1,7 +1,7 @@
 ---
 type: plan
 id: 20261111-profile-identity
-status: in-progress
+status: done
 spec: internal/spec/20261111-profile-identity.md
 created: 2026-11-11
 updated: 2026-11-12
@@ -26,7 +26,7 @@ Uraian proyek tetap teks asli supaya terbaca di ponsel dan perintah bisa disalin
 - [x] 3. Tulis ulang README dari versi yang tayang — berkas: `README.md` — AC: AC-01, AC-02, AC-04, AC-05, AC-06 — verifikasi: perintah grep dan cek link di spec
 - [x] 4. Perbarui dokumen pusat — berkas: `internal/docs/blueprint.md`, `internal/docs/frd.md`, `internal/docs/prd.md`, `internal/docs/README.md` — AC: tidak ada — verifikasi: `rw.sh check`
 - [x] 5. Tambah daftar 3 layanan berjalan di bawah perkenalan — berkas: `README.md`, `internal/docs/frd.md`, `internal/docs/prd.md` — AC: AC-10 — verifikasi: perintah grep di spec, lalu pratinjau desktop dan ponsel
-- [ ] 6. Push setelah Rama setuju — berkas: tidak ada — AC: AC-07 — verifikasi: buka https://github.com/RamaAditya49 di tema gelap dan terang
+- [x] 6. Push setelah Rama setuju — berkas: tidak ada — AC: AC-07 — verifikasi: buka https://github.com/RamaAditya49 di tema gelap dan terang
 
 ## Risiko dan rollback
 
@@ -45,3 +45,4 @@ Uraian proyek tetap teks asli supaya terbaca di ponsel dan perintah bisa disalin
 - 2026-11-12: nama tampil sejak frame pertama header. Alasan: pembaca yang menghentikan animasi hanya melihat frame pertama. Durasi animasi turun dari 4,6 detik ke 3,85 detik.
 - 2026-11-12: rancangan ketiga selesai. AC-01 sampai AC-06, AC-08, dan AC-09 lulus di lokal. Pratinjau desktop dan ponsel dicek di tema gelap dan terang. Push menunggu persetujuan Rama.
 - 2026-11-12: Rama meminta 3 layanan berjalan masuk ke profil: kelola marketing puluhan UMKM lewat AI agent, les privat SEO, AIO/AEO, dan GEO, serta mentoring 1-on-1 dari engineering sampai GTM. Langkah 5 ditambah. AC-10 lulus. Pratinjau desktop dan ponsel dicek. Kanvas Design diperbarui.
+- 2026-11-12: 3 commit lokal digabung menjadi satu commit `ae4dca5`, supaya gambar rancangan kedua tidak masuk riwayat publik. Rama setuju. Push selesai. AC-07 lulus di tema gelap dan terang.
