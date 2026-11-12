@@ -1,6 +1,6 @@
 ---
 type: docs-index
-updated: 2026-10-26
+updated: 2026-11-12
 ---
 
 # Dokumen pusat
@@ -10,10 +10,10 @@ Perbarui dokumen yang terdampak di setiap pekerjaan. Lalu perbarui kolom "Diperb
 
 | Dokumen | Isi | Status | Diperbarui |
 |---------|-----|--------|------------|
-| [blueprint.md](blueprint.md) | Peta satu halaman: apa, untuk siapa, stack, struktur, deploy | current | 2026-10-26 |
+| [blueprint.md](blueprint.md) | Peta satu halaman: apa, untuk siapa, stack, struktur, deploy | current | 2026-11-12 |
 | [brd.md](brd.md) | Kebutuhan bisnis: tujuan, stakeholder, aturan bisnis, KPI | current | 2026-10-26 |
-| [prd.md](prd.md) | Kebutuhan produk: pengguna, masalah, fitur, prioritas | current | 2026-10-26 |
-| [frd.md](frd.md) | Kebutuhan fungsional dalam EARS, dengan ID FR tetap | current | 2026-10-26 |
+| [prd.md](prd.md) | Kebutuhan produk: pengguna, masalah, fitur, prioritas | current | 2026-11-12 |
+| [frd.md](frd.md) | Kebutuhan fungsional dalam EARS, dengan ID FR tetap | current | 2026-11-12 |
 | [erd.md](erd.md) | Model data: entitas, field, relasi | current | 2026-10-26 |
 
 ## Dokumen lain

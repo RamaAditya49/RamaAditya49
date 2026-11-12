@@ -1,7 +1,7 @@
 ---
 type: prd
 status: current
-updated: 2026-10-26
+updated: 2026-11-12
 ---
 
 # PRD: RamaAditya49 (GitHub profile)
@@ -32,6 +32,8 @@ Pengunjung global harus paham kerja Rama dengan cepat. README lama campur bahasa
 | F-02 | Proyek open source unggulan | must | live | FR-002 |
 | F-03 | Daftar produk dan kerja klien dalam lipatan | should | live | FR-003 |
 | F-04 | Pin 6 repo | must | live | FR-004 |
+| F-05 | Coretan kapur dan spidol: header, sketsa agent stack, label bagian | should | selesai di repo, belum tayang | FR-005, FR-006, FR-007 |
+| F-06 | Daftar 3 layanan berjalan: marketing UMKM lewat AI agent, les privat search, mentoring 1-on-1 | should | selesai di repo, belum tayang | FR-008 |
 
 ## Alur pengguna utama
 

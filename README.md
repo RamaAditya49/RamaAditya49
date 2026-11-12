@@ -1,42 +1,48 @@
-<div align="center">
-
-<a href="https://ramadigital.id"><img src="https://avatars.githubusercontent.com/u/213913142?v=4" width="110" alt="Rama Aditya"/></a>
-
-# Rama Aditya
-
-**AI builder & trainer · agent infrastructure · open source**
+<p>
+  <a href="https://ramadigital.id">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.webp">
+      <img src="assets/hero-light.webp" width="880" alt="Rama Aditya. AI builder and trainer. Agent infrastructure, open source. 170+ businesses since 2013. 700+ students trained. Bali, Indonesia.">
+    </picture>
+  </a>
+</p>
 
 I build open-source tools that let AI coding agents run, remember, and take work from chat.<br/>
 I also build attribution systems that connect ad spend to closed deals.
 
-Software for 170+ businesses since 2013 · AI training for 700+ students · Bali, Indonesia
+- **Managed marketing for small businesses** — AI agents run campaigns, ads, and landing pages for dozens of small businesses, automatically.
+- **Private coaching in search** — SEO, AIO/AEO, and GEO: ranking on Google and being cited in AI answers.
+- **1-on-1 mentoring** — private students, from engineering through go-to-market (GTM).
 
-[![Website](https://img.shields.io/badge/ramadigital.id-111?style=for-the-badge&logo=googlechrome&logoColor=4CAF50)](https://ramadigital.id)
-[![Email](https://img.shields.io/badge/halo@ramadigital.id-111?style=for-the-badge&logo=gmail&logoColor=EA4335)](mailto:halo@ramadigital.id)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-111?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://www.linkedin.com/in/ramaaditya49)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-111?style=for-the-badge&logo=whatsapp&logoColor=25D366)](https://api.whatsapp.com/send?phone=6285803327994&text=Hi%20Rama%2C%20I%20found%20you%20on%20GitHub.)
+[ramadigital.id](https://ramadigital.id) · [halo@ramadigital.id](mailto:halo@ramadigital.id) · [LinkedIn](https://www.linkedin.com/in/ramaaditya49) · [WhatsApp](https://api.whatsapp.com/send?phone=6285803327994&text=Hi%20Rama%2C%20I%20found%20you%20on%20GitHub.)
 
-[![titen-memory](https://img.shields.io/npm/dm/titen-memory?style=flat-square&label=titen-memory&color=4CAF50&labelColor=111&logo=npm&logoColor=CB3837)](https://www.npmjs.com/package/titen-memory)
-[![caraka](https://img.shields.io/npm/dm/caraka?style=flat-square&label=caraka&color=4CAF50&labelColor=111&logo=npm&logoColor=CB3837)](https://www.npmjs.com/package/caraka)
-[![compactio](https://img.shields.io/npm/dm/compactio?style=flat-square&label=compactio&color=4CAF50&labelColor=111&logo=npm&logoColor=CB3837)](https://www.npmjs.com/package/compactio)
-[![cloudflare-bulk-delete](https://img.shields.io/npm/dm/cloudflare-bulk-delete?style=flat-square&label=cloudflare-bulk-delete&color=4CAF50&labelColor=111&logo=npm&logoColor=CB3837)](https://www.npmjs.com/package/cloudflare-bulk-delete)
-[![@growthcircle/cadis](https://img.shields.io/npm/dm/@growthcircle/cadis?style=flat-square&label=cadis&color=4CAF50&labelColor=111&logo=npm&logoColor=CB3837)](https://www.npmjs.com/package/@growthcircle/cadis)
+[![titen-memory](https://img.shields.io/npm/dm/titen-memory?style=flat-square&label=titen-memory&color=E8B04B&labelColor=111&logo=npm&logoColor=CB3837)](https://www.npmjs.com/package/titen-memory)
+[![caraka](https://img.shields.io/npm/dm/caraka?style=flat-square&label=caraka&color=E8B04B&labelColor=111&logo=npm&logoColor=CB3837)](https://www.npmjs.com/package/caraka)
+[![compactio](https://img.shields.io/npm/dm/compactio?style=flat-square&label=compactio&color=E8B04B&labelColor=111&logo=npm&logoColor=CB3837)](https://www.npmjs.com/package/compactio)
+[![cloudflare-bulk-delete](https://img.shields.io/npm/dm/cloudflare-bulk-delete?style=flat-square&label=cloudflare-bulk-delete&color=E8B04B&labelColor=111&logo=npm&logoColor=CB3837)](https://www.npmjs.com/package/cloudflare-bulk-delete)
+[![@growthcircle/cadis](https://img.shields.io/npm/dm/@growthcircle/cadis?style=flat-square&label=cadis&color=E8B04B&labelColor=111&logo=npm&logoColor=CB3837)](https://www.npmjs.com/package/@growthcircle/cadis)
 
-</div>
-
----
-
-## The agent stack
+<h3>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/label-stack-dark.webp">
+    <img src="assets/label-stack-light.webp" width="440" alt="The agent stack">
+  </picture>
+</h3>
 
 Four local-first pieces. Use one, or put them together.
+
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.webp">
+    <img src="assets/stack-light.webp" width="880" alt="Sketch of the agent stack. You send a task from chat. Caraka carries it to CADIS. CADIS runs the agents, each in its own worktree. Titen keeps what the agents learn. compactio cuts tool output before the model reads it.">
+  </picture>
+</p>
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-<a href="https://github.com/Growth-Circle/cadis"><img src="https://cadis.digital/hud.webp" alt="CADIS desktop HUD with 14 agents around a central orb"/></a>
-
-### [C.A.D.I.S.](https://github.com/Growth-Circle/cadis) ![stars](https://img.shields.io/github/stars/Growth-Circle/cadis?style=flat-square&label=%E2%98%85&color=4CAF50&labelColor=111)
+### [C.A.D.I.S.](https://github.com/Growth-Circle/cadis) ![stars](https://img.shields.io/github/stars/Growth-Circle/cadis?style=flat-square&label=%E2%98%85&color=E8B04B&labelColor=111)
 
 **Run** — a multi-agent runtime in Rust. Desktop HUD, policy-gated tools, voice in and out, and coding agents that each work in their own git worktree.
 
@@ -45,9 +51,7 @@ Four local-first pieces. Use one, or put them together.
 </td>
 <td width="50%" valign="top">
 
-<a href="https://github.com/RamaAditya49/titen"><img src="https://raw.githubusercontent.com/RamaAditya49/titen/main/docs/assets/readme/titen-hero.svg" alt="Titen: self-hosted agent memory with no API key and no LLM"/></a>
-
-### [Titen](https://github.com/RamaAditya49/titen) ![stars](https://img.shields.io/github/stars/RamaAditya49/titen?style=flat-square&label=%E2%98%85&color=4CAF50&labelColor=111)
+### [Titen](https://github.com/RamaAditya49/titen) ![stars](https://img.shields.io/github/stars/RamaAditya49/titen?style=flat-square&label=%E2%98%85&color=E8B04B&labelColor=111)
 
 **Remember** — agent memory with no API key, no LLM, and no embedding provider. Serves MCP over SQLite, or Cloudflare Workers + D1 for a team. Each memory keeps its source, its readers, and the evidence against it.
 
@@ -62,9 +66,7 @@ npx titen-memory mcp
 <tr>
 <td width="50%" valign="top">
 
-<a href="https://github.com/CarakaDev/caraka"><img src="https://raw.githubusercontent.com/CarakaDev/caraka/main/assets/banner.svg" alt="Caraka: send the task, Caraka runs it"/></a>
-
-### [Caraka](https://github.com/CarakaDev/caraka) ![stars](https://img.shields.io/github/stars/CarakaDev/caraka?style=flat-square&label=%E2%98%85&color=4CAF50&labelColor=111)
+### [Caraka](https://github.com/CarakaDev/caraka) ![stars](https://img.shields.io/github/stars/CarakaDev/caraka?style=flat-square&label=%E2%98%85&color=E8B04B&labelColor=111)
 
 **Reach** — send a task from Telegram, Discord, or WhatsApp to the coding agent on your machine. Caraka adds only what chat needs: identity, sessions, approvals, and audit.
 
@@ -77,9 +79,7 @@ npx caraka init
 </td>
 <td width="50%" valign="top">
 
-<a href="https://github.com/RamaAditya49/compactio"><img src="https://raw.githubusercontent.com/RamaAditya49/compactio/main/assets/hero.svg" alt="compactio: System 1 for your coding agent"/></a>
-
-### [compactio](https://github.com/RamaAditya49/compactio) ![stars](https://img.shields.io/github/stars/RamaAditya49/compactio?style=flat-square&label=%E2%98%85&color=4CAF50&labelColor=111)
+### [compactio](https://github.com/RamaAditya49/compactio) ![stars](https://img.shields.io/github/stars/RamaAditya49/compactio?style=flat-square&label=%E2%98%85&color=E8B04B&labelColor=111)
 
 **Save** — a System 1 for your coding agent. A fast decision model cuts test logs, build logs, and search results before the expensive model reads them. One real test log: 20,501 → 747 characters.
 
@@ -93,7 +93,12 @@ claude plugin marketplace add RamaAditya49/compactio
 </tr>
 </table>
 
-## Tools
+<h3>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/label-tools-dark.webp">
+    <img src="assets/label-tools-light.webp" width="440" alt="Tools">
+  </picture>
+</h3>
 
 <table>
 <tr>
@@ -101,7 +106,7 @@ claude plugin marketplace add RamaAditya49/compactio
 
 <a href="https://github.com/RamaAditya49/cadiswave"><img src="https://raw.githubusercontent.com/RamaAditya49/cadiswave/main/docs/images/device-en.png" alt="CadisWave device page with gain dial, input meter, and headphone level"/></a>
 
-### [CadisWave](https://github.com/RamaAditya49/cadiswave) ![stars](https://img.shields.io/github/stars/RamaAditya49/cadiswave?style=flat-square&label=%E2%98%85&color=4CAF50&labelColor=111)
+### [CadisWave](https://github.com/RamaAditya49/cadiswave) ![stars](https://img.shields.io/github/stars/RamaAditya49/cadiswave?style=flat-square&label=%E2%98%85&color=E8B04B&labelColor=111)
 
 Elgato Wave XLR software for Linux. Mic gain, mute, phantom power, headphones, and a PipeWire mixer. Continues [OpenWave](https://github.com/rikkichy/openwave).
 
@@ -112,7 +117,7 @@ Elgato Wave XLR software for Linux. Mic gain, mute, phantom power, headphones, a
 
 <a href="https://github.com/RamaAditya49/peta-pixel-nusantara"><img src="https://raw.githubusercontent.com/RamaAditya49/peta-pixel-nusantara/main/assets/preview.png" alt="Pixel map of Indonesia"/></a>
 
-### [peta-pixel-nusantara](https://github.com/RamaAditya49/peta-pixel-nusantara) ![stars](https://img.shields.io/github/stars/RamaAditya49/peta-pixel-nusantara?style=flat-square&label=%E2%98%85&color=4CAF50&labelColor=111)
+### [peta-pixel-nusantara](https://github.com/RamaAditya49/peta-pixel-nusantara) ![stars](https://img.shields.io/github/stars/RamaAditya49/peta-pixel-nusantara?style=flat-square&label=%E2%98%85&color=E8B04B&labelColor=111)
 
 An 8-bit pixel map of Indonesia: 38 provinces and 514 regencies and cities on a zoomable canvas grid. Open data, no build step.
 
@@ -123,7 +128,7 @@ An 8-bit pixel map of Indonesia: 38 provinces and 514 regencies and cities on a 
 <tr>
 <td width="50%" valign="top">
 
-### [cloudflare-bulk-delete](https://github.com/RamaAditya49/cloudflare-bulk-delete) ![stars](https://img.shields.io/github/stars/RamaAditya49/cloudflare-bulk-delete?style=flat-square&label=%E2%98%85&color=4CAF50&labelColor=111)
+### [cloudflare-bulk-delete](https://github.com/RamaAditya49/cloudflare-bulk-delete) ![stars](https://img.shields.io/github/stars/RamaAditya49/cloudflare-bulk-delete?style=flat-square&label=%E2%98%85&color=E8B04B&labelColor=111)
 
 Fixes the Cloudflare error *"Your project has too many deployments to be deleted"*. Deletes old Pages and Workers deployments and keeps production.
 
@@ -152,9 +157,12 @@ A VS Code extension. Find and stop Node.js processes from the status bar on Wind
 
 **Forks I maintain** — [growcli](https://github.com/Growth-Circle/growcli) *(OpenAI Codex CLI)* · [grow-team](https://github.com/Growth-Circle/grow-team) *(Zulip)* · [take-my-computer](https://github.com/RamaAditya49/take-my-computer) *(computer use on Linux over MCP)*
 
----
-
-## Products
+<h3>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/label-products-dark.webp">
+    <img src="assets/label-products-light.webp" width="440" alt="Products">
+  </picture>
+</h3>
 
 <details>
 <summary><b>10 live products</b>, mostly for Indonesian businesses</summary>
@@ -176,7 +184,12 @@ A VS Code extension. Find and stop Node.js processes from the status bar on Wind
 
 </details>
 
-## Client work
+<h3>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/label-clients-dark.webp">
+    <img src="assets/label-clients-light.webp" width="440" alt="Client work">
+  </picture>
+</h3>
 
 <details>
 <summary><b>5 public clients, 10 under NDA, 2 internal platforms</b></summary>
@@ -211,7 +224,12 @@ A VS Code extension. Find and stop Node.js processes from the status bar on Wind
 
 </details>
 
-## Results
+<h3>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/label-results-dark.webp">
+    <img src="assets/label-results-light.webp" width="440" alt="Results">
+  </picture>
+</h3>
 
 I sell attribution, so I measure my own site the same way. **9 of 15 service pages on ramadigital.id rank on Google page 1.** The search `jasa install openclaw` ranks at position 1.1 with a 39% CTR.
 
@@ -236,9 +254,14 @@ After the home page, the most organic traffic comes from the agent install guide
 
 </details>
 
-## Stack
+<h3>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/label-tech-dark.webp">
+    <img src="assets/label-tech-light.webp" width="440" alt="Stack">
+  </picture>
+</h3>
 
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=rust,go,ts,js,py,php,vue,nuxtjs,react,nextjs,astro,svelte,tailwind&theme=dark" alt="Languages and frameworks: Rust, Go, TypeScript, JavaScript, Python, PHP, Vue, Nuxt, React, Next.js, Astro, Svelte, Tailwind"/><br/>
-  <img src="https://skillicons.dev/icons?i=nodejs,nestjs,bun,laravel,postgres,mongodb,redis,docker,cloudflare,tauri,linux,git&theme=dark" alt="Runtime and infrastructure: Node.js, NestJS, Bun, Laravel, Postgres, MongoDB, Redis, Docker, Cloudflare, Tauri, Linux, Git"/>
-</div>
+**Languages** — Rust · Go · TypeScript · JavaScript · Python · PHP<br/>
+**Frontend** — Vue · Nuxt · React · Next.js · Astro · Svelte · Tailwind<br/>
+**Backend and data** — Node.js · NestJS · Bun · Laravel · Postgres · MongoDB · Redis<br/>
+**Infrastructure and desktop** — Docker · Cloudflare · Linux · Git · Tauri
