@@ -52,6 +52,6 @@ moving() { # id width height
 
 moving hero 880 236
 still stack 880 352
-for id in label-stack label-tools label-products label-clients label-results label-tech; do
+for id in label-now label-stacklabel-tools label-products label-clients label-results label-tech; do
   still "$id" 440 58
 done

@@ -1,7 +1,7 @@
 ---
 type: prd
 status: current
-updated: 2026-11-12
+updated: 2026-11-25
 ---
 
 # PRD: RamaAditya49 (GitHub profile)
@@ -34,8 +34,9 @@ Pengunjung global harus paham kerja Rama dengan cepat. README lama campur bahasa
 | F-04 | Pin 6 repo | must | live | FR-004 |
 | F-05 | Coretan kapur dan spidol: header, sketsa agent stack, label bagian | should | live | FR-005, FR-006, FR-007 |
 | F-06 | Daftar 3 layanan berjalan: marketing UMKM lewat AI agent, les privat search, mentoring 1-on-1 | should | live | FR-008 |
-| F-07 | Tabel peran: Founder (10 situs), Creator open source (3 situs), Co-founder (3 situs) | should | live | FR-009 |
+| F-07 | Tabel peran: Founder (10 situs), Creator open source (4 situs), Co-founder (3 situs) | should | live | FR-009 |
 | F-08 | Kontak lewat email dan LinkedIn, tanpa WhatsApp | should | live | FR-010 |
+| F-09 | Bagian "Now building" untuk Seira: screenshot, 4 butir, jalur pasang, dan link | must | live | FR-011, FR-012 |
 
 ## Alur pengguna utama
 
@@ -69,3 +70,4 @@ Pengunjung global harus paham kerja Rama dengan cepat. README lama campur bahasa
 ## Sumber fakta
 
 - Permintaan Rama, 2026-10-26
+- Permintaan Rama, 2026-11-25: profil lebih bagus dan Seira masuk profil
