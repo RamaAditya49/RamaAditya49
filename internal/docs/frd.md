@@ -1,7 +1,7 @@
 ---
 type: frd
 status: current
-updated: 2026-11-12
+updated: 2026-11-25
 ---
 
 # FRD: RamaAditya49 (GitHub profile)
@@ -26,16 +26,18 @@ updated: 2026-11-12
 | FR-006 | State-driven | While the GitHub theme is light, the profile README shall show the marker file of each drawing. | implemented | 20261111-profile-identity |
 | FR-007 | Event-driven | When the header image loads, the header drawing shall play one time and then stay complete. | implemented | 20261111-profile-identity |
 | FR-008 | Ubiquitous | The profile README shall list three current services below the introduction: managed marketing for small businesses, private coaching in search, and 1-on-1 mentoring. | implemented | 20261111-profile-identity |
-| FR-009 | Ubiquitous | The profile README shall show three role groups below the service list: Founder, Creator (open source), and Co-founder, each site as a link. | implemented | 20261112-founder-roles |
+| FR-009 | Ubiquitous | The profile README shall show three role groups below the service list: Founder, Creator (open source), and Co-founder, each site as a link. The Creator group shall list `seira.bot` first. | implemented | 20261112-founder-roles, 20261125-seira-spotlight |
 | FR-010 | Ubiquitous | The profile README shall link to email and LinkedIn as contact channels and shall contain no WhatsApp chat link. | implemented | 20261112-founder-roles |
+| FR-011 | Ubiquitous | The profile README shall show the Seira section above the agent stack section, with a link to `github.com/seira-bot/seira`, one screenshot, and the install paths. | implemented | 20261125-seira-spotlight |
+| FR-012 | Ubiquitous | The npm badge row shall show the downloads of `@seira-bot/seira`. | implemented | 20261125-seira-spotlight |
 
 ## Kebutuhan non-fungsional
 
 | ID | Pola | Requirement | Status | Sumber |
 |----|------|-------------|--------|--------|
-| NFR-001 | Ubiquitous | Every URL in the README shall return HTTP 2xx or 3xx, except linkedin.com and npmjs.com, which refuse automated clients. | implemented | 20261026-global-showcase, 20261111-profile-identity |
+| NFR-001 | Ubiquitous | Every URL in the README shall return HTTP 2xx or 3xx, except linkedin.com and npmjs.com, which refuse automated clients. | implemented | 20261026-global-showcase, 20261111-profile-identity, 20261125-seira-spotlight |
 | NFR-002 | Ubiquitous | Every `<img>` in the README shall have an `alt` attribute. | implemented | 20261026-global-showcase |
-| NFR-003 | Ubiquitous | The images that one theme loads shall total less than 400 KB. | implemented | 20261111-profile-identity |
+| NFR-003 | Ubiquitous | The images in `assets/` that one theme loads shall total less than 400 KB. | implemented | 20261111-profile-identity, 20261125-seira-spotlight |
 
 ## Pertanyaan terbuka
 

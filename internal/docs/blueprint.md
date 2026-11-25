@@ -1,7 +1,7 @@
 ---
 type: blueprint
 status: current
-updated: 2026-11-12
+updated: 2026-11-25
 ---
 
 # Blueprint: RamaAditya49 (GitHub profile)
@@ -37,7 +37,8 @@ flowchart LR
 |---------|-----------|---------|
 | Konten | GitHub Flavored Markdown + HTML terbatas | GitHub membuang CSS dan script. |
 | Gambar | WebP di `assets/` | Coretan kapur dan spidol dari `tools/pieces.html`. Kode menggambar semuanya. |
-| Badge | shields.io | Unduhan npm dan jumlah bintang, warna `E8B04B`. |
+| Badge | shields.io | Unduhan npm, jumlah bintang, dan versi rilis Seira, warna `E8B04B`. |
+| Screenshot proyek | `raw.githubusercontent.com` | Seira, CadisWave, dan peta-pixel-nusantara. Gambar dimuat dari repo proyek. |
 | Render gambar | Chromium tanpa layar + ImageMagick + ffmpeg | Jalan di `rama-tuf` lewat `tools/render.sh`. Font OFL di `tools/fonts/`: Caveat. |
 | Tema | `<picture>` dengan `prefers-color-scheme` | Tiap gambar punya berkas `-dark` (kapur) dan `-light` (spidol). |
 | Animasi | WebP animasi, main satu kali | Hanya header. Frame pertama memuat nama. |
@@ -47,7 +48,7 @@ flowchart LR
 | Path | Isi |
 |------|-----|
 | `README.md` | Isi profil yang tampil di GitHub |
-| `assets/` | 16 gambar WebP: 2 header, 2 sketsa agent stack, 12 label bagian |
+| `assets/` | 18 gambar WebP: 2 header, 2 sketsa agent stack, 14 label bagian |
 | `tools/pieces.html` | Sumber semua gambar di `assets/` |
 | `tools/render.sh` | Skrip yang menyimpan tiap gambar pada skala 2x |
 | `tools/fonts/` | Font Caveat dan lisensi OFL |
@@ -88,5 +89,6 @@ Pinned repositories tidak ada di repo ini. Atur lewat UI GitHub: profil → "Cus
 - `git log --oneline` repo ini (2026-10-26)
 - GraphQL introspection: tidak ada mutation pin repo (2026-10-26)
 - `tools/pieces.html`, `tools/render.sh`, dan `ls assets` (2026-11-12)
+- `gh api repos/seira-bot/seira` dan README repo itu (2026-11-25)
 - Kanvas rancangan: https://claude.ai/artifact/Km9nhGURtQn1MqJudFgDvN (2026-11-12)
 - README publik lain yang memakai `<picture>` dengan path relatif: `sveltejs/svelte`, dibaca lewat `gh api repos/sveltejs/svelte/readme` (2026-11-12)

@@ -7,7 +7,8 @@
   </a>
 </p>
 
-I build open-source tools that let AI coding agents run, remember, and take work from chat.<br/>
+I build open-source tools for AI agents. The newest is [**Seira**](https://github.com/seira-bot/seira): your own team of AI agents in one chat app.<br/>
+The others let coding agents run, remember, and take work from chat.<br/>
 I also build attribution systems that connect ad spend to closed deals.
 
 - **Managed marketing for small businesses** — AI agents run campaigns, ads, and landing pages for dozens of small businesses, automatically.
@@ -21,7 +22,7 @@ I also build attribution systems that connect ad spend to closed deals.
   </tr>
   <tr>
     <td><b>Creator</b><br/><sub>open&nbsp;source</sub></td>
-    <td><a href="https://titen.dev">titen.dev</a>&nbsp;· <a href="https://caraka.dev">caraka.dev</a>&nbsp;· <a href="https://cadis.digital">cadis.digital</a></td>
+    <td><a href="https://seira.bot">seira.bot</a>&nbsp;· <a href="https://titen.dev">titen.dev</a>&nbsp;· <a href="https://caraka.dev">caraka.dev</a>&nbsp;· <a href="https://cadis.digital">cadis.digital</a></td>
   </tr>
   <tr>
     <td><b>Co&#8209;founder</b></td>
@@ -31,11 +32,38 @@ I also build attribution systems that connect ad spend to closed deals.
 
 [ramadigital.id](https://ramadigital.id) · [halo@ramadigital.id](mailto:halo@ramadigital.id) · [LinkedIn](https://www.linkedin.com/in/ramaaditya49)
 
+[![@seira-bot/seira](https://img.shields.io/npm/dm/@seira-bot/seira?style=flat-square&label=seira&color=E8B04B&labelColor=111&logo=npm&logoColor=CB3837)](https://www.npmjs.com/package/@seira-bot/seira)
 [![titen-memory](https://img.shields.io/npm/dm/titen-memory?style=flat-square&label=titen-memory&color=E8B04B&labelColor=111&logo=npm&logoColor=CB3837)](https://www.npmjs.com/package/titen-memory)
 [![caraka](https://img.shields.io/npm/dm/caraka?style=flat-square&label=caraka&color=E8B04B&labelColor=111&logo=npm&logoColor=CB3837)](https://www.npmjs.com/package/caraka)
 [![compactio](https://img.shields.io/npm/dm/compactio?style=flat-square&label=compactio&color=E8B04B&labelColor=111&logo=npm&logoColor=CB3837)](https://www.npmjs.com/package/compactio)
 [![cloudflare-bulk-delete](https://img.shields.io/npm/dm/cloudflare-bulk-delete?style=flat-square&label=cloudflare-bulk-delete&color=E8B04B&labelColor=111&logo=npm&logoColor=CB3837)](https://www.npmjs.com/package/cloudflare-bulk-delete)
 [![@growthcircle/cadis](https://img.shields.io/npm/dm/@growthcircle/cadis?style=flat-square&label=cadis&color=E8B04B&labelColor=111&logo=npm&logoColor=CB3837)](https://www.npmjs.com/package/@growthcircle/cadis)
+
+<h3>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/label-now-dark.webp">
+    <img src="assets/label-now-light.webp" width="440" alt="Now building">
+  </picture>
+</h3>
+
+<a href="https://github.com/seira-bot/seira"><img src="https://raw.githubusercontent.com/seira-bot/seira/main/docs/screenshots/docs-model-picker.png" width="880" alt="The Seira app: the Bots list on the left, a chat with the bot Pepper in the middle, and the model picker open on the right"/></a>
+
+### [Seira](https://github.com/seira-bot/seira) ![stars](https://img.shields.io/github/stars/seira-bot/seira?style=flat-square&label=%E2%98%85&color=E8B04B&labelColor=111) ![release](https://img.shields.io/github/v/release/seira-bot/seira?style=flat-square&label=release&color=E8B04B&labelColor=111)
+
+**Your own team of AI agents in one chat app.** Seira is a free, open-source desktop app for Windows and Linux. It runs Claude Code, Codex, Gemini, Cursor, Copilot, and 25+ more engines as a team of bots.
+
+- **Bring your own agents** — bots run on the agent programs on your computer, with the sign-in and the plan that you already have. No new account, no proxy.
+- **A team, not one chat** — each bot has its own name, instructions, model, and folder. Bots hand work to each other and talk in group chats.
+- **You approve the risky steps** — shell commands and file edits show as cards that you allow or deny, on the desktop or on your phone.
+- **Local first** — one small server on `127.0.0.1` owns every agent process. Chats and keys stay on your computer.
+
+**Get it** — [Microsoft Store](https://apps.microsoft.com/detail/9MVFVK4VTFDH) · [Windows installer](https://github.com/seira-bot/seira/releases/latest/download/Seira-setup.exe) · [Ubuntu .deb](https://github.com/seira-bot/seira/releases/latest/download/Seira-amd64.deb) · [AppImage](https://github.com/seira-bot/seira/releases/latest/download/Seira.AppImage) · [Flatpak](https://flatpak.seira.bot/seira.flatpakref) · [Android companion](https://play.google.com/store/apps/details?id=bot.seira.companion) · or on a server:
+
+```
+npx @seira-bot/seira setup
+```
+
+`TypeScript` `Electron` `React` `ACP` `MCP` · Apache-2.0 — [seira.bot](https://seira.bot) · [docs](https://docs.seira.bot) · [23-second demo](https://github.com/seira-bot/seira/blob/main/docs/assets/demo/seira-demo.gif) · [team templates](https://github.com/seira-bot/seira-teams) · [Discord](https://discord.gg/wAAgETJpFS)
 
 <h3>
   <picture>
@@ -170,6 +198,8 @@ A VS Code extension. Find and stop Node.js processes from the status bar on Wind
 
 **Prompt collections** — [prd-prompt-collection](https://github.com/ai-builders-id/prd-prompt-collection) · [mdown-collection](https://github.com/ai-builders-id/mdown-collection)
 
+**Linux desktop fixes** — [zorin-claude-desktop-fix](https://github.com/RamaAditya49/zorin-claude-desktop-fix) *(Claude Desktop on Zorin OS and GNOME Wayland)*
+
 **Forks I maintain** — [growcli](https://github.com/Growth-Circle/growcli) *(OpenAI Codex CLI)* · [grow-team](https://github.com/Growth-Circle/grow-team) *(Zulip)* · [take-my-computer](https://github.com/RamaAditya49/take-my-computer) *(computer use on Linux over MCP)*
 
 <h3>
@@ -279,4 +309,4 @@ After the home page, the most organic traffic comes from the agent install guide
 **Languages** — Rust · Go · TypeScript · JavaScript · Python · PHP<br/>
 **Frontend** — Vue · Nuxt · React · Next.js · Astro · Svelte · Tailwind<br/>
 **Backend and data** — Node.js · NestJS · Bun · Laravel · Postgres · MongoDB · Redis<br/>
-**Infrastructure and desktop** — Docker · Cloudflare · Linux · Git · Tauri
+**Infrastructure and desktop** — Docker · Cloudflare · Linux · Git · Tauri · Electron
