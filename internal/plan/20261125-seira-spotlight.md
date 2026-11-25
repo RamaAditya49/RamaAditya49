@@ -23,7 +23,7 @@ Pekerjaan jalan di branch `feat/seira-spotlight`. Merge ke `main` menunggu perse
 - [x] 2. Tambah label `label-now` — berkas: `tools/pieces.html`, `tools/render.sh`, `assets/label-now-*.webp` — AC: AC-04, AC-06 — verifikasi: `ls assets | wc -l` = 18
 - [x] 3. Tulis bagian Seira dan perubahan kecil lain — berkas: `README.md` — AC: AC-01, AC-02, AC-03, AC-07 — verifikasi: perintah grep di spec
 - [x] 4. Cek semua URL — berkas: tidak ada — AC: AC-05 — verifikasi: perintah cek link di `internal/docs/blueprint.md`
-- [ ] 5. Push branch dan cek tampilan di GitHub — berkas: tidak ada — AC: AC-01, AC-04 — verifikasi: buka `github.com/RamaAditya49/RamaAditya49/tree/feat/seira-spotlight`
+- [x] 5. Push branch dan cek tampilan di GitHub — berkas: tidak ada — AC: AC-01, AC-04 — verifikasi: buka `github.com/RamaAditya49/RamaAditya49/tree/feat/seira-spotlight`
 - [x] 6. Perbarui dokumen pusat — berkas: `internal/docs/frd.md`, `internal/docs/prd.md`, `internal/docs/blueprint.md`, `internal/docs/README.md` — AC: tidak ada — verifikasi: `rw.sh check`
 - [ ] 7. Merge ke `main` setelah Rama setuju — berkas: tidak ada — AC: AC-08 — verifikasi: buka https://github.com/RamaAditya49 di tema gelap dan terang
 
@@ -39,3 +39,5 @@ Pekerjaan jalan di branch `feat/seira-spotlight`. Merge ke `main` menunggu perse
 - 2026-11-25: label `label-now` dibuat di `rama-tuf`. `ls assets | wc -l` = 18. Tema gelap 294.376 byte, tema terang 138.476 byte. AC-04 dan AC-06 lulus.
 - 2026-11-25: bagian Seira masuk README. AC-01, AC-02 (10, 4, 3), AC-03, dan AC-07 lulus di lokal.
 - 2026-11-25: 111 URL dicek. Hanya npmjs.com (403) dan linkedin.com (999) yang menolak. `registry.npmjs.org/@seira-bot%2fseira` menjawab 206. AC-05 lulus.
+- 2026-11-25: branch `feat/seira-spotlight` di-push, commit `08176ea`. Halaman branch di GitHub: 27 gambar termuat, 0 rusak, lebar isi 823 px tanpa geser samping. Tema gelap memuat `label-now-dark.webp`. Tangkapan layar tema terang dari `rama-tuf` rapi.
+- 2026-11-25: langkah 7 menunggu persetujuan Rama. AC-08 belum dicek.
