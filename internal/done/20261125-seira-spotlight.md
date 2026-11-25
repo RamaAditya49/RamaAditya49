@@ -52,7 +52,13 @@ Baris Creator memuat `seira.bot` sebagai link pertama. Baris badge npm memuat `@
 ## Sisa risiko dan tindak lanjut
 
 - Pin profil belum memuat `seira-bot/seira`. GitHub tidak punya API untuk pin. Rama mengaturnya lewat "Customize your pins".
-- Bio akun kosong. Pengisian bio menunggu perintah Rama.
+- Bio akun terisi pada 2026-11-25 atas perintah Rama: "Building Seira, an open-source team of AI agents in one chat app." Bukti: `gh api users/RamaAditya49 --jq .bio`.
 - Screenshot Seira dimuat dari repo Seira. Kalau path berubah di sana, alt text tampil sampai URL diganti.
 - Baris badge npm turun ke 2 baris pada lebar 823 px. Badge `cadis` ada di baris kedua.
 - Tema gelap pada halaman tayang dicek lewat DOM. Tangkapan layar tema gelap tidak ada.
+
+## Perbaikan sesudah selesai
+
+- 2026-11-25: commit `cfebcd3` menghapus satu spasi di loop label `tools/render.sh` (`label-stacklabel-tools`). Render semua gambar melewati `label-stack` dan `label-tools`.
+- Perbaikan: spasi dikembalikan. Halaman tayang tidak berubah.
+- Bukti: `bash render.sh label-stack` dan `bash render.sh label-tools` di `rama-tuf`. `sha256sum` 4 berkas hasil sama dengan 4 berkas di `assets/`.
